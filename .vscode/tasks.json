@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Bygg alt (hent data + prediker)",
+      "type": "shell",
+      "command": "make data",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Hent data",
+      "type": "shell",
+      "command": "make fetch",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Lag prediksjoner",
+      "type": "shell",
+      "command": "make predict",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Kjør tester",
+      "type": "shell",
+      "command": "make test",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start nettsiden (port 8000)",
+      "type": "shell",
+      "command": "make serve",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

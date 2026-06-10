@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fotball-VM 2026 - prediksjoner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Fotball-VM 2026</h1>
+  <p class="subtitle">Daglig oppdaterte prediksjoner fra Elo-ratinger, Poisson-modell og markedsodds</p>
+  <p class="meta" id="meta"></p>
+</header>
+
+<nav id="tabs">
+  <button data-tab="matches" class="active">Kamper</button>
+  <button data-tab="groups">Grupper</button>
+  <button data-tab="title">Vinnersjanser</button>
+  <button data-tab="about">Om modellen</button>
+</nav>
+
+<main>
+  <section id="tab-matches">
+    <div class="filters" id="filters">
+      <button data-filter="upcoming" class="active">Kommende</button>
+      <button data-filter="played">Spilte</button>
+      <button data-filter="all">Alle</button>
+    </div>
+    <div id="matches"></div>
+  </section>
+
+  <section id="tab-groups" hidden>
+    <div id="groups" class="group-grid"></div>
+  </section>
+
+  <section id="tab-title" hidden>
+    <h2>Sannsynlighet for å vinne VM 2026</h2>
+    <div id="title-chart"></div>
+  </section>
+
+  <section id="tab-about" hidden>
+    <h2>Om modellen</h2>
+    <div class="prose">
+      <p>Prediksjonene bygges automatisk hver dag av en åpen pipeline:</p>
+      <ul>
+        <li><strong>Kampoppsett og resultater</strong> hentes fra
+          <a href="https://github.com/openfootball/worldcup">openfootball/worldcup</a> (public domain).</li>
+        <li><strong>Historiske landskamper</strong> (49 000+ kamper siden 1872) hentes fra
+          <a href="https://github.com/martj42/international_results">martj42/international_results</a> (CC0)
+          og brukes til å beregne Elo-ratinger etter eloratings.net-metoden.</li>
+        <li><strong>Målmodellen</strong> er en Poisson-regresjon der forventet antall mål per lag
+          avhenger av Elo-differansen, kalibrert på landskamper siden 2015, med
+          Dixon-Coles-justering for lave resultater. Vertsnasjonene får hjemmebanefordel.</li>
+        <li><strong>Markedsodds</strong> fra The Odds API blandes inn når de er tilgjengelige
+          (vekt 65 prosent), ellers brukes ren modell.</li>
+        <li><strong>Turneringen simuleres</strong> 10 000 ganger (Monte Carlo) for å beregne
+          sannsynligheter for gruppeplasseringer, sluttspillruter og tittelen.</li>
+      </ul>
+      <p id="model-params"></p>
+      <p>All kode er åpen. Prediksjoner er underholdning, ikke spilletips.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Datakilder: openfootball (public domain), martj42/international_results (CC0), The Odds API.
+     Generert automatisk med GitHub Actions.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

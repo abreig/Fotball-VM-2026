@@ -1,0 +1,5544 @@
+{
+ "generated_at": "2026-06-10T21:07:37Z",
+ "tournament": "FIFA Fotball-VM 2026",
+ "n_simulations": 10000,
+ "model": {
+  "a": 0.1449,
+  "b": 0.7501,
+  "rho": -0.04,
+  "calibration_matches": 10589,
+  "market_weight": 0.65,
+  "market_available": false
+ },
+ "sources": {
+  "fixtures": "openfootball/worldcup (public domain)",
+  "results": "martj42/international_results (CC0)",
+  "odds": null
+ },
+ "groups": {
+  "A": [
+   "Mexico",
+   "South Africa",
+   "South Korea",
+   "Czech Republic"
+  ],
+  "B": [
+   "Canada",
+   "Bosnia & Herzegovina",
+   "Qatar",
+   "Switzerland"
+  ],
+  "C": [
+   "Brazil",
+   "Morocco",
+   "Haiti",
+   "Scotland"
+  ],
+  "D": [
+   "USA",
+   "Paraguay",
+   "Australia",
+   "Turkey"
+  ],
+  "E": [
+   "Germany",
+   "Curaçao",
+   "Ivory Coast",
+   "Ecuador"
+  ],
+  "F": [
+   "Netherlands",
+   "Japan",
+   "Sweden",
+   "Tunisia"
+  ],
+  "G": [
+   "Belgium",
+   "Egypt",
+   "Iran",
+   "New Zealand"
+  ],
+  "H": [
+   "Spain",
+   "Cape Verde",
+   "Saudi Arabia",
+   "Uruguay"
+  ],
+  "I": [
+   "France",
+   "Senegal",
+   "Iraq",
+   "Norway"
+  ],
+  "J": [
+   "Argentina",
+   "Algeria",
+   "Austria",
+   "Jordan"
+  ],
+  "K": [
+   "Portugal",
+   "DR Congo",
+   "Uzbekistan",
+   "Colombia"
+  ],
+  "L": [
+   "England",
+   "Croatia",
+   "Ghana",
+   "Panama"
+  ]
+ },
+ "teams": {
+  "Mexico": {
+   "group": "A",
+   "p_group_winner": 0.6944,
+   "p_r32": 0.972,
+   "p_r16": 0.695,
+   "p_qf": 0.4033,
+   "p_sf": 0.1768,
+   "p_final": 0.0648,
+   "p_champion": 0.0227,
+   "elo": 1980
+  },
+  "South Africa": {
+   "group": "A",
+   "p_group_winner": 0.0259,
+   "p_r32": 0.2737,
+   "p_r16": 0.0586,
+   "p_qf": 0.0099,
+   "p_sf": 0.0002,
+   "p_final": 0.0,
+   "p_champion": 0.0,
+   "elo": 1663
+  },
+  "South Korea": {
+   "group": "A",
+   "p_group_winner": 0.1841,
+   "p_r32": 0.787,
+   "p_r16": 0.3842,
+   "p_qf": 0.1391,
+   "p_sf": 0.0403,
+   "p_final": 0.0102,
+   "p_champion": 0.0027,
+   "elo": 1881
+  },
+  "Czech Republic": {
+   "group": "A",
+   "p_group_winner": 0.0956,
+   "p_r32": 0.6231,
+   "p_r16": 0.2332,
+   "p_qf": 0.0643,
+   "p_sf": 0.0132,
+   "p_final": 0.0039,
+   "p_champion": 0.0012,
+   "elo": 1802
+  },
+  "Canada": {
+   "group": "B",
+   "p_group_winner": 0.5422,
+   "p_r32": 0.9687,
+   "p_r16": 0.5931,
+   "p_qf": 0.2724,
+   "p_sf": 0.0765,
+   "p_final": 0.0225,
+   "p_champion": 0.0062,
+   "elo": 1899
+  },
+  "Bosnia & Herzegovina": {
+   "group": "B",
+   "p_group_winner": 0.0346,
+   "p_r32": 0.4305,
+   "p_r16": 0.0803,
+   "p_qf": 0.013,
+   "p_sf": 0.0011,
+   "p_final": 0.0002,
+   "p_champion": 0.0,
+   "elo": 1652
+  },
+  "Qatar": {
+   "group": "B",
+   "p_group_winner": 0.0124,
+   "p_r32": 0.2273,
+   "p_r16": 0.0297,
+   "p_qf": 0.0026,
+   "p_sf": 0.0001,
+   "p_final": 0.0,
+   "p_champion": 0.0,
+   "elo": 1566
+  },
+  "Switzerland": {
+   "group": "B",
+   "p_group_winner": 0.4108,
+   "p_r32": 0.9577,
+   "p_r16": 0.5941,
+   "p_qf": 0.2674,
+   "p_sf": 0.1008,
+   "p_final": 0.036,
+   "p_champion": 0.0115,
+   "elo": 1956
+  },
+  "Brazil": {
+   "group": "C",
+   "p_group_winner": 0.5588,
+   "p_r32": 0.9497,
+   "p_r16": 0.6125,
+   "p_qf": 0.3882,
+   "p_sf": 0.2305,
+   "p_final": 0.1082,
+   "p_champion": 0.0502,
+   "elo": 2069
+  },
+  "Morocco": {
+   "group": "C",
+   "p_group_winner": 0.3137,
+   "p_r32": 0.8728,
+   "p_r16": 0.4507,
+   "p_qf": 0.2465,
+   "p_sf": 0.1144,
+   "p_final": 0.0415,
+   "p_champion": 0.0133,
+   "elo": 1985
+  },
+  "Haiti": {
+   "group": "C",
+   "p_group_winner": 0.0255,
+   "p_r32": 0.2681,
+   "p_r16": 0.0515,
+   "p_qf": 0.0118,
+   "p_sf": 0.0016,
+   "p_final": 0.0002,
+   "p_champion": 0.0,
+   "elo": 1707
+  },
+  "Scotland": {
+   "group": "C",
+   "p_group_winner": 0.102,
+   "p_r32": 0.6098,
+   "p_r16": 0.1985,
+   "p_qf": 0.068,
+   "p_sf": 0.0174,
+   "p_final": 0.0045,
+   "p_champion": 0.0008,
+   "elo": 1844
+  },
+  "USA": {
+   "group": "D",
+   "p_group_winner": 0.2419,
+   "p_r32": 0.695,
+   "p_r16": 0.3764,
+   "p_qf": 0.1548,
+   "p_sf": 0.0502,
+   "p_final": 0.0178,
+   "p_champion": 0.0051,
+   "elo": 1827
+  },
+  "Paraguay": {
+   "group": "D",
+   "p_group_winner": 0.2333,
+   "p_r32": 0.6752,
+   "p_r16": 0.3537,
+   "p_qf": 0.1445,
+   "p_sf": 0.0476,
+   "p_final": 0.0176,
+   "p_champion": 0.0058,
+   "elo": 1919
+  },
+  "Australia": {
+   "group": "D",
+   "p_group_winner": 0.1966,
+   "p_r32": 0.622,
+   "p_r16": 0.3103,
+   "p_qf": 0.1179,
+   "p_sf": 0.0329,
+   "p_final": 0.0101,
+   "p_champion": 0.0022,
+   "elo": 1902
+  },
+  "Turkey": {
+   "group": "D",
+   "p_group_winner": 0.3282,
+   "p_r32": 0.7613,
+   "p_r16": 0.4662,
+   "p_qf": 0.2176,
+   "p_sf": 0.0809,
+   "p_final": 0.0359,
+   "p_champion": 0.0124,
+   "elo": 1969
+  },
+  "Germany": {
+   "group": "E",
+   "p_group_winner": 0.413,
+   "p_r32": 0.9357,
+   "p_r16": 0.572,
+   "p_qf": 0.286,
+   "p_sf": 0.1501,
+   "p_final": 0.0608,
+   "p_champion": 0.0251,
+   "elo": 2005
+  },
+  "Curaçao": {
+   "group": "E",
+   "p_group_winner": 0.0108,
+   "p_r32": 0.1594,
+   "p_r16": 0.0228,
+   "p_qf": 0.0023,
+   "p_sf": 0.0001,
+   "p_final": 0.0,
+   "p_champion": 0.0,
+   "elo": 1606
+  },
+  "Ivory Coast": {
+   "group": "E",
+   "p_group_winner": 0.091,
+   "p_r32": 0.6516,
+   "p_r16": 0.2144,
+   "p_qf": 0.0629,
+   "p_sf": 0.0132,
+   "p_final": 0.0023,
+   "p_champion": 0.0004,
+   "elo": 1815
+  },
+  "Ecuador": {
+   "group": "E",
+   "p_group_winner": 0.4852,
+   "p_r32": 0.9502,
+   "p_r16": 0.6154,
+   "p_qf": 0.3184,
+   "p_sf": 0.1758,
+   "p_final": 0.0749,
+   "p_champion": 0.0296,
+   "elo": 2028
+  },
+  "Netherlands": {
+   "group": "F",
+   "p_group_winner": 0.4645,
+   "p_r32": 0.9188,
+   "p_r16": 0.5048,
+   "p_qf": 0.2971,
+   "p_sf": 0.1445,
+   "p_final": 0.0564,
+   "p_champion": 0.022,
+   "elo": 2011
+  },
+  "Japan": {
+   "group": "F",
+   "p_group_winner": 0.41,
+   "p_r32": 0.8999,
+   "p_r16": 0.4639,
+   "p_qf": 0.2613,
+   "p_sf": 0.1198,
+   "p_final": 0.0487,
+   "p_champion": 0.0185,
+   "elo": 1994
+  },
+  "Sweden": {
+   "group": "F",
+   "p_group_winner": 0.0726,
+   "p_r32": 0.4705,
+   "p_r16": 0.1069,
+   "p_qf": 0.0275,
+   "p_sf": 0.005,
+   "p_final": 0.0011,
+   "p_champion": 0.0001,
+   "elo": 1771
+  },
+  "Tunisia": {
+   "group": "F",
+   "p_group_winner": 0.0529,
+   "p_r32": 0.3879,
+   "p_r16": 0.0788,
+   "p_qf": 0.0187,
+   "p_sf": 0.003,
+   "p_final": 0.0001,
+   "p_champion": 0.0,
+   "elo": 1738
+  },
+  "Belgium": {
+   "group": "G",
+   "p_group_winner": 0.4482,
+   "p_r32": 0.8798,
+   "p_r16": 0.5034,
+   "p_qf": 0.234,
+   "p_sf": 0.0768,
+   "p_final": 0.0324,
+   "p_champion": 0.0104,
+   "elo": 1957
+  },
+  "Egypt": {
+   "group": "G",
+   "p_group_winner": 0.1587,
+   "p_r32": 0.6349,
+   "p_r16": 0.2181,
+   "p_qf": 0.0557,
+   "p_sf": 0.0126,
+   "p_final": 0.0032,
+   "p_champion": 0.0006,
+   "elo": 1810
+  },
+  "Iran": {
+   "group": "G",
+   "p_group_winner": 0.3102,
+   "p_r32": 0.8,
+   "p_r16": 0.3869,
+   "p_qf": 0.1419,
+   "p_sf": 0.0404,
+   "p_final": 0.0136,
+   "p_champion": 0.0035,
+   "elo": 1897
+  },
+  "New Zealand": {
+   "group": "G",
+   "p_group_winner": 0.0829,
+   "p_r32": 0.4194,
+   "p_r16": 0.1033,
+   "p_qf": 0.0209,
+   "p_sf": 0.0021,
+   "p_final": 0.0004,
+   "p_champion": 0.0,
+   "elo": 1732
+  },
+  "Spain": {
+   "group": "H",
+   "p_group_winner": 0.808,
+   "p_r32": 0.9959,
+   "p_r16": 0.7869,
+   "p_qf": 0.6059,
+   "p_sf": 0.5046,
+   "p_final": 0.3773,
+   "p_champion": 0.2641,
+   "elo": 2219
+  },
+  "Cape Verde": {
+   "group": "H",
+   "p_group_winner": 0.0065,
+   "p_r32": 0.2449,
+   "p_r16": 0.0319,
+   "p_qf": 0.0054,
+   "p_sf": 0.0003,
+   "p_final": 0.0,
+   "p_champion": 0.0,
+   "elo": 1654
+  },
+  "Saudi Arabia": {
+   "group": "H",
+   "p_group_winner": 0.0123,
+   "p_r32": 0.3254,
+   "p_r16": 0.0513,
+   "p_qf": 0.0095,
+   "p_sf": 0.0019,
+   "p_final": 0.0002,
+   "p_champion": 0.0,
+   "elo": 1693
+  },
+  "Uruguay": {
+   "group": "H",
+   "p_group_winner": 0.1732,
+   "p_r32": 0.915,
+   "p_r16": 0.3449,
+   "p_qf": 0.1835,
+   "p_sf": 0.0915,
+   "p_final": 0.0386,
+   "p_champion": 0.0118,
+   "elo": 1975
+  },
+  "France": {
+   "group": "I",
+   "p_group_winner": 0.6138,
+   "p_r32": 0.953,
+   "p_r16": 0.734,
+   "p_qf": 0.5099,
+   "p_sf": 0.3473,
+   "p_final": 0.1917,
+   "p_champion": 0.107,
+   "elo": 2125
+  },
+  "Senegal": {
+   "group": "I",
+   "p_group_winner": 0.1398,
+   "p_r32": 0.6924,
+   "p_r16": 0.3204,
+   "p_qf": 0.1303,
+   "p_sf": 0.0458,
+   "p_final": 0.0131,
+   "p_champion": 0.0042,
+   "elo": 1914
+  },
+  "Iraq": {
+   "group": "I",
+   "p_group_winner": 0.0274,
+   "p_r32": 0.254,
+   "p_r16": 0.0607,
+   "p_qf": 0.0137,
+   "p_sf": 0.0024,
+   "p_final": 0.0004,
+   "p_champion": 0.0,
+   "elo": 1738
+  },
+  "Norway": {
+   "group": "I",
+   "p_group_winner": 0.219,
+   "p_r32": 0.7992,
+   "p_r16": 0.4346,
+   "p_qf": 0.2125,
+   "p_sf": 0.0928,
+   "p_final": 0.0357,
+   "p_champion": 0.0124,
+   "elo": 1972
+  },
+  "Argentina": {
+   "group": "J",
+   "p_group_winner": 0.7888,
+   "p_r32": 0.9818,
+   "p_r16": 0.7095,
+   "p_qf": 0.5842,
+   "p_sf": 0.4454,
+   "p_final": 0.3195,
+   "p_champion": 0.1993,
+   "elo": 2190
+  },
+  "Algeria": {
+   "group": "J",
+   "p_group_winner": 0.0781,
+   "p_r32": 0.6127,
+   "p_r16": 0.1663,
+   "p_qf": 0.0625,
+   "p_sf": 0.0171,
+   "p_final": 0.004,
+   "p_champion": 0.001,
+   "elo": 1873
+  },
+  "Austria": {
+   "group": "J",
+   "p_group_winner": 0.0976,
+   "p_r32": 0.6609,
+   "p_r16": 0.2015,
+   "p_qf": 0.0824,
+   "p_sf": 0.0289,
+   "p_final": 0.008,
+   "p_champion": 0.0022,
+   "elo": 1890
+  },
+  "Jordan": {
+   "group": "J",
+   "p_group_winner": 0.0355,
+   "p_r32": 0.3672,
+   "p_r16": 0.0716,
+   "p_qf": 0.0208,
+   "p_sf": 0.0043,
+   "p_final": 0.0006,
+   "p_champion": 0.0,
+   "elo": 1775
+  },
+  "Portugal": {
+   "group": "K",
+   "p_group_winner": 0.4134,
+   "p_r32": 0.9107,
+   "p_r16": 0.5812,
+   "p_qf": 0.3021,
+   "p_sf": 0.1553,
+   "p_final": 0.0755,
+   "p_champion": 0.0327,
+   "elo": 2043
+  },
+  "DR Congo": {
+   "group": "K",
+   "p_group_winner": 0.0413,
+   "p_r32": 0.3441,
+   "p_r16": 0.0773,
+   "p_qf": 0.0139,
+   "p_sf": 0.0029,
+   "p_final": 0.0004,
+   "p_champion": 0.0,
+   "elo": 1763
+  },
+  "Uzbekistan": {
+   "group": "K",
+   "p_group_winner": 0.0764,
+   "p_r32": 0.4959,
+   "p_r16": 0.1462,
+   "p_qf": 0.0362,
+   "p_sf": 0.0106,
+   "p_final": 0.0024,
+   "p_champion": 0.0005,
+   "elo": 1821
+  },
+  "Colombia": {
+   "group": "K",
+   "p_group_winner": 0.4689,
+   "p_r32": 0.9277,
+   "p_r16": 0.6193,
+   "p_qf": 0.344,
+   "p_sf": 0.1854,
+   "p_final": 0.1034,
+   "p_champion": 0.0479,
+   "elo": 2064
+  },
+  "England": {
+   "group": "L",
+   "p_group_winner": 0.5939,
+   "p_r32": 0.9666,
+   "p_r16": 0.6711,
+   "p_qf": 0.3843,
+   "p_sf": 0.2305,
+   "p_final": 0.1216,
+   "p_champion": 0.0589,
+   "elo": 2086
+  },
+  "Croatia": {
+   "group": "L",
+   "p_group_winner": 0.2845,
+   "p_r32": 0.8848,
+   "p_r16": 0.4543,
+   "p_qf": 0.1803,
+   "p_sf": 0.0828,
+   "p_final": 0.034,
+   "p_champion": 0.0123,
+   "elo": 1969
+  },
+  "Ghana": {
+   "group": "L",
+   "p_group_winner": 0.01,
+   "p_r32": 0.1628,
+   "p_r16": 0.0206,
+   "p_qf": 0.002,
+   "p_sf": 0.0001,
+   "p_final": 0.0,
+   "p_champion": 0.0,
+   "elo": 1625
+  },
+  "Panama": {
+   "group": "L",
+   "p_group_winner": 0.1116,
+   "p_r32": 0.703,
+   "p_r16": 0.2377,
+   "p_qf": 0.0686,
+   "p_sf": 0.0222,
+   "p_final": 0.0063,
+   "p_champion": 0.0014,
+   "elo": 1854
+  }
+ },
+ "matches": [
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "A",
+   "date": "2026-06-11",
+   "utc": "2026-06-11T19:00:00Z",
+   "venue": "Mexico City",
+   "home": "Mexico",
+   "away": "South Africa",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.8055,
+    "p_draw": 0.1394,
+    "p_away": 0.055,
+    "xg_home": 2.53,
+    "xg_away": 0.53,
+    "top_scores": [
+     [
+      "2-0",
+      0.1504
+     ],
+     [
+      "3-0",
+      0.1267
+     ],
+     [
+      "1-0",
+      0.1165
+     ],
+     [
+      "4-0",
+      0.08
+     ],
+     [
+      "2-1",
+      0.0795
+     ]
+    ],
+    "elo_home": 1980,
+    "elo_away": 1663,
+    "market": null,
+    "blended": {
+     "p_home": 0.8055,
+     "p_draw": 0.1394,
+     "p_away": 0.055,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "A",
+   "date": "2026-06-11",
+   "utc": "2026-06-12T02:00:00Z",
+   "venue": "Guadalajara (Zapopan)",
+   "home": "South Korea",
+   "away": "Czech Republic",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.4409,
+    "p_draw": 0.286,
+    "p_away": 0.273,
+    "xg_home": 1.34,
+    "xg_away": 1.0,
+    "top_scores": [
+     [
+      "1-1",
+      0.1342
+     ],
+     [
+      "1-0",
+      0.1243
+     ],
+     [
+      "0-0",
+      0.1018
+     ],
+     [
+      "0-1",
+      0.0911
+     ],
+     [
+      "2-0",
+      0.0868
+     ]
+    ],
+    "elo_home": 1881,
+    "elo_away": 1802,
+    "market": null,
+    "blended": {
+     "p_home": 0.4409,
+     "p_draw": 0.286,
+     "p_away": 0.273,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "B",
+   "date": "2026-06-12",
+   "utc": "2026-06-12T19:00:00Z",
+   "venue": "Toronto",
+   "home": "Canada",
+   "away": "Bosnia & Herzegovina",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.7405,
+    "p_draw": 0.1767,
+    "p_away": 0.0828,
+    "xg_home": 2.22,
+    "xg_away": 0.6,
+    "top_scores": [
+     [
+      "2-0",
+      0.1465
+     ],
+     [
+      "1-0",
+      0.129
+     ],
+     [
+      "3-0",
+      0.1082
+     ],
+     [
+      "2-1",
+      0.0883
+     ],
+     [
+      "1-1",
+      0.0829
+     ]
+    ],
+    "elo_home": 1899,
+    "elo_away": 1652,
+    "market": null,
+    "blended": {
+     "p_home": 0.7405,
+     "p_draw": 0.1767,
+     "p_away": 0.0828,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "D",
+   "date": "2026-06-12",
+   "utc": "2026-06-13T01:00:00Z",
+   "venue": "Los Angeles (Inglewood)",
+   "home": "USA",
+   "away": "Paraguay",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3624,
+    "p_draw": 0.2933,
+    "p_away": 0.3443,
+    "xg_home": 1.17,
+    "xg_away": 1.14,
+    "top_scores": [
+     [
+      "1-1",
+      0.1376
+     ],
+     [
+      "1-0",
+      0.111
+     ],
+     [
+      "0-1",
+      0.1074
+     ],
+     [
+      "0-0",
+      0.1044
+     ],
+     [
+      "2-1",
+      0.0777
+     ]
+    ],
+    "elo_home": 1827,
+    "elo_away": 1919,
+    "market": null,
+    "blended": {
+     "p_home": 0.3624,
+     "p_draw": 0.2933,
+     "p_away": 0.3443,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "B",
+   "date": "2026-06-13",
+   "utc": "2026-06-13T19:00:00Z",
+   "venue": "San Francisco Bay Area (Santa Clara)",
+   "home": "Qatar",
+   "away": "Switzerland",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.0649,
+    "p_draw": 0.1538,
+    "p_away": 0.7813,
+    "xg_home": 0.56,
+    "xg_away": 2.4,
+    "top_scores": [
+     [
+      "0-2",
+      0.1498
+     ],
+     [
+      "0-1",
+      0.1219
+     ],
+     [
+      "0-3",
+      0.1199
+     ],
+     [
+      "1-2",
+      0.0833
+     ],
+     [
+      "1-1",
+      0.0722
+     ]
+    ],
+    "elo_home": 1566,
+    "elo_away": 1956,
+    "market": null,
+    "blended": {
+     "p_home": 0.0649,
+     "p_draw": 0.1538,
+     "p_away": 0.7813,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "C",
+   "date": "2026-06-13",
+   "utc": "2026-06-13T22:00:00Z",
+   "venue": "New York/New Jersey (East Rutherford)",
+   "home": "Brazil",
+   "away": "Morocco",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.4465,
+    "p_draw": 0.2851,
+    "p_away": 0.2684,
+    "xg_home": 1.35,
+    "xg_away": 0.99,
+    "top_scores": [
+     [
+      "1-1",
+      0.1338
+     ],
+     [
+      "1-0",
+      0.1251
+     ],
+     [
+      "0-0",
+      0.1014
+     ],
+     [
+      "0-1",
+      0.0899
+     ],
+     [
+      "2-0",
+      0.0881
+     ]
+    ],
+    "elo_home": 2069,
+    "elo_away": 1985,
+    "market": null,
+    "blended": {
+     "p_home": 0.4465,
+     "p_draw": 0.2851,
+     "p_away": 0.2684,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "C",
+   "date": "2026-06-13",
+   "utc": "2026-06-14T01:00:00Z",
+   "venue": "Boston (Foxborough)",
+   "home": "Haiti",
+   "away": "Scotland",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.2206,
+    "p_draw": 0.2718,
+    "p_away": 0.5076,
+    "xg_home": 0.89,
+    "xg_away": 1.49,
+    "top_scores": [
+     [
+      "0-1",
+      0.1322
+     ],
+     [
+      "1-1",
+      0.1275
+     ],
+     [
+      "0-2",
+      0.1024
+     ],
+     [
+      "0-0",
+      0.0967
+     ],
+     [
+      "1-2",
+      0.0916
+     ]
+    ],
+    "elo_home": 1707,
+    "elo_away": 1844,
+    "market": null,
+    "blended": {
+     "p_home": 0.2206,
+     "p_draw": 0.2718,
+     "p_away": 0.5076,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "D",
+   "date": "2026-06-13",
+   "utc": "2026-06-14T04:00:00Z",
+   "venue": "Vancouver",
+   "home": "Australia",
+   "away": "Turkey",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.2842,
+    "p_draw": 0.288,
+    "p_away": 0.4277,
+    "xg_home": 1.02,
+    "xg_away": 1.31,
+    "top_scores": [
+     [
+      "1-1",
+      0.1352
+     ],
+     [
+      "0-1",
+      0.1224
+     ],
+     [
+      "0-0",
+      0.1025
+     ],
+     [
+      "1-0",
+      0.0939
+     ],
+     [
+      "1-2",
+      0.0852
+     ]
+    ],
+    "elo_home": 1902,
+    "elo_away": 1969,
+    "market": null,
+    "blended": {
+     "p_home": 0.2842,
+     "p_draw": 0.288,
+     "p_away": 0.4277,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "E",
+   "date": "2026-06-14",
+   "utc": "2026-06-14T17:00:00Z",
+   "venue": "Houston",
+   "home": "Germany",
+   "away": "Curaçao",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.7893,
+    "p_draw": 0.1491,
+    "p_away": 0.0615,
+    "xg_home": 2.44,
+    "xg_away": 0.55,
+    "top_scores": [
+     [
+      "2-0",
+      0.1501
+     ],
+     [
+      "3-0",
+      0.1221
+     ],
+     [
+      "1-0",
+      0.1202
+     ],
+     [
+      "2-1",
+      0.0821
+     ],
+     [
+      "4-0",
+      0.0745
+     ]
+    ],
+    "elo_home": 2005,
+    "elo_away": 1606,
+    "market": null,
+    "blended": {
+     "p_home": 0.7893,
+     "p_draw": 0.1491,
+     "p_away": 0.0615,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "F",
+   "date": "2026-06-14",
+   "utc": "2026-06-14T20:00:00Z",
+   "venue": "Dallas (Arlington)",
+   "home": "Netherlands",
+   "away": "Japan",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3718,
+    "p_draw": 0.2931,
+    "p_away": 0.3351,
+    "xg_home": 1.19,
+    "xg_away": 1.12,
+    "top_scores": [
+     [
+      "1-1",
+      0.1375
+     ],
+     [
+      "1-0",
+      0.1129
+     ],
+     [
+      "0-1",
+      0.1055
+     ],
+     [
+      "0-0",
+      0.1043
+     ],
+     [
+      "2-1",
+      0.0789
+     ]
+    ],
+    "elo_home": 2011,
+    "elo_away": 1994,
+    "market": null,
+    "blended": {
+     "p_home": 0.3718,
+     "p_draw": 0.2931,
+     "p_away": 0.3351,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "E",
+   "date": "2026-06-14",
+   "utc": "2026-06-14T23:00:00Z",
+   "venue": "Philadelphia",
+   "home": "Ivory Coast",
+   "away": "Ecuador",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1609,
+    "p_draw": 0.2434,
+    "p_away": 0.5957,
+    "xg_home": 0.78,
+    "xg_away": 1.72,
+    "top_scores": [
+     [
+      "0-1",
+      0.1373
+     ],
+     [
+      "0-2",
+      0.1221
+     ],
+     [
+      "1-1",
+      0.1142
+     ],
+     [
+      "1-2",
+      0.0946
+     ],
+     [
+      "0-0",
+      0.0866
+     ]
+    ],
+    "elo_home": 1815,
+    "elo_away": 2028,
+    "market": null,
+    "blended": {
+     "p_home": 0.1609,
+     "p_draw": 0.2434,
+     "p_away": 0.5957,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "F",
+   "date": "2026-06-14",
+   "utc": "2026-06-15T02:00:00Z",
+   "venue": "Monterrey (Guadalupe)",
+   "home": "Sweden",
+   "away": "Tunisia",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3886,
+    "p_draw": 0.2922,
+    "p_away": 0.3193,
+    "xg_home": 1.23,
+    "xg_away": 1.09,
+    "top_scores": [
+     [
+      "1-1",
+      0.1371
+     ],
+     [
+      "1-0",
+      0.1159
+     ],
+     [
+      "0-0",
+      0.1039
+     ],
+     [
+      "0-1",
+      0.102
+     ],
+     [
+      "2-1",
+      0.081
+     ]
+    ],
+    "elo_home": 1771,
+    "elo_away": 1738,
+    "market": null,
+    "blended": {
+     "p_home": 0.3886,
+     "p_draw": 0.2922,
+     "p_away": 0.3193,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "H",
+   "date": "2026-06-15",
+   "utc": "2026-06-15T16:00:00Z",
+   "venue": "Atlanta",
+   "home": "Spain",
+   "away": "Cape Verde",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.9099,
+    "p_draw": 0.0706,
+    "p_away": 0.0195,
+    "xg_home": 3.34,
+    "xg_away": 0.4,
+    "top_scores": [
+     [
+      "3-0",
+      0.1476
+     ],
+     [
+      "2-0",
+      0.1327
+     ],
+     [
+      "4-0",
+      0.1231
+     ],
+     [
+      "5-0",
+      0.0822
+     ],
+     [
+      "1-0",
+      0.0783
+     ]
+    ],
+    "elo_home": 2219,
+    "elo_away": 1654,
+    "market": null,
+    "blended": {
+     "p_home": 0.9099,
+     "p_draw": 0.0706,
+     "p_away": 0.0195,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "G",
+   "date": "2026-06-15",
+   "utc": "2026-06-15T19:00:00Z",
+   "venue": "Seattle",
+   "home": "Belgium",
+   "away": "Egypt",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.5187,
+    "p_draw": 0.2688,
+    "p_away": 0.2125,
+    "xg_home": 1.52,
+    "xg_away": 0.88,
+    "top_scores": [
+     [
+      "1-0",
+      0.1332
+     ],
+     [
+      "1-1",
+      0.1261
+     ],
+     [
+      "2-0",
+      0.105
+     ],
+     [
+      "0-0",
+      0.0956
+     ],
+     [
+      "2-1",
+      0.0922
+     ]
+    ],
+    "elo_home": 1957,
+    "elo_away": 1810,
+    "market": null,
+    "blended": {
+     "p_home": 0.5187,
+     "p_draw": 0.2688,
+     "p_away": 0.2125,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "H",
+   "date": "2026-06-15",
+   "utc": "2026-06-15T22:00:00Z",
+   "venue": "Miami (Miami Gardens)",
+   "home": "Saudi Arabia",
+   "away": "Uruguay",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1163,
+    "p_draw": 0.2106,
+    "p_away": 0.6731,
+    "xg_home": 0.68,
+    "xg_away": 1.96,
+    "top_scores": [
+     [
+      "0-2",
+      0.137
+     ],
+     [
+      "0-1",
+      0.1358
+     ],
+     [
+      "1-1",
+      0.0988
+     ],
+     [
+      "1-2",
+      0.0932
+     ],
+     [
+      "0-3",
+      0.0896
+     ]
+    ],
+    "elo_home": 1693,
+    "elo_away": 1975,
+    "market": null,
+    "blended": {
+     "p_home": 0.1163,
+     "p_draw": 0.2106,
+     "p_away": 0.6731,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "G",
+   "date": "2026-06-15",
+   "utc": "2026-06-16T01:00:00Z",
+   "venue": "Los Angeles (Inglewood)",
+   "home": "Iran",
+   "away": "New Zealand",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.5406,
+    "p_draw": 0.2624,
+    "p_away": 0.1971,
+    "xg_home": 1.58,
+    "xg_away": 0.85,
+    "top_scores": [
+     [
+      "1-0",
+      0.1349
+     ],
+     [
+      "1-1",
+      0.1231
+     ],
+     [
+      "2-0",
+      0.11
+     ],
+     [
+      "0-0",
+      0.0933
+     ],
+     [
+      "2-1",
+      0.0933
+     ]
+    ],
+    "elo_home": 1897,
+    "elo_away": 1732,
+    "market": null,
+    "blended": {
+     "p_home": 0.5406,
+     "p_draw": 0.2624,
+     "p_away": 0.1971,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "I",
+   "date": "2026-06-16",
+   "utc": "2026-06-16T19:00:00Z",
+   "venue": "New York/New Jersey (East Rutherford)",
+   "home": "France",
+   "away": "Senegal",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.5938,
+    "p_draw": 0.2441,
+    "p_away": 0.1621,
+    "xg_home": 1.72,
+    "xg_away": 0.78,
+    "top_scores": [
+     [
+      "1-0",
+      0.1372
+     ],
+     [
+      "2-0",
+      0.1217
+     ],
+     [
+      "1-1",
+      0.1145
+     ],
+     [
+      "2-1",
+      0.0946
+     ],
+     [
+      "0-0",
+      0.0868
+     ]
+    ],
+    "elo_home": 2125,
+    "elo_away": 1914,
+    "market": null,
+    "blended": {
+     "p_home": 0.5938,
+     "p_draw": 0.2441,
+     "p_away": 0.1621,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "I",
+   "date": "2026-06-16",
+   "utc": "2026-06-16T22:00:00Z",
+   "venue": "Boston (Foxborough)",
+   "home": "Iraq",
+   "away": "Norway",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1467,
+    "p_draw": 0.2343,
+    "p_away": 0.619,
+    "xg_home": 0.75,
+    "xg_away": 1.79,
+    "top_scores": [
+     [
+      "0-1",
+      0.1374
+     ],
+     [
+      "0-2",
+      0.1269
+     ],
+     [
+      "1-1",
+      0.1099
+     ],
+     [
+      "1-2",
+      0.0946
+     ],
+     [
+      "0-0",
+      0.0833
+     ]
+    ],
+    "elo_home": 1738,
+    "elo_away": 1972,
+    "market": null,
+    "blended": {
+     "p_home": 0.1467,
+     "p_draw": 0.2343,
+     "p_away": 0.619,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "J",
+   "date": "2026-06-16",
+   "utc": "2026-06-17T01:00:00Z",
+   "venue": "Kansas City",
+   "home": "Argentina",
+   "away": "Algeria",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.7098,
+    "p_draw": 0.1927,
+    "p_away": 0.0975,
+    "xg_home": 2.09,
+    "xg_away": 0.64,
+    "top_scores": [
+     [
+      "2-0",
+      0.1427
+     ],
+     [
+      "1-0",
+      0.1328
+     ],
+     [
+      "3-0",
+      0.0996
+     ],
+     [
+      "2-1",
+      0.091
+     ],
+     [
+      "1-1",
+      0.0904
+     ]
+    ],
+    "elo_home": 2190,
+    "elo_away": 1873,
+    "market": null,
+    "blended": {
+     "p_home": 0.7098,
+     "p_draw": 0.1927,
+     "p_away": 0.0975,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "J",
+   "date": "2026-06-16",
+   "utc": "2026-06-17T04:00:00Z",
+   "venue": "San Francisco Bay Area (Santa Clara)",
+   "home": "Austria",
+   "away": "Jordan",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.4817,
+    "p_draw": 0.2781,
+    "p_away": 0.2402,
+    "xg_home": 1.43,
+    "xg_away": 0.93,
+    "top_scores": [
+     [
+      "1-1",
+      0.1305
+     ],
+     [
+      "1-0",
+      0.1296
+     ],
+     [
+      "0-0",
+      0.0989
+     ],
+     [
+      "2-0",
+      0.0964
+     ],
+     [
+      "2-1",
+      0.0899
+     ]
+    ],
+    "elo_home": 1890,
+    "elo_away": 1775,
+    "market": null,
+    "blended": {
+     "p_home": 0.4817,
+     "p_draw": 0.2781,
+     "p_away": 0.2402,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "K",
+   "date": "2026-06-17",
+   "utc": "2026-06-17T17:00:00Z",
+   "venue": "Houston",
+   "home": "Portugal",
+   "away": "DR Congo",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.6698,
+    "p_draw": 0.2121,
+    "p_away": 0.118,
+    "xg_home": 1.95,
+    "xg_away": 0.68,
+    "top_scores": [
+     [
+      "2-0",
+      0.1364
+     ],
+     [
+      "1-0",
+      0.136
+     ],
+     [
+      "1-1",
+      0.0995
+     ],
+     [
+      "2-1",
+      0.0934
+     ],
+     [
+      "3-0",
+      0.0887
+     ]
+    ],
+    "elo_home": 2043,
+    "elo_away": 1763,
+    "market": null,
+    "blended": {
+     "p_home": 0.6698,
+     "p_draw": 0.2121,
+     "p_away": 0.118,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "L",
+   "date": "2026-06-17",
+   "utc": "2026-06-17T20:00:00Z",
+   "venue": "Dallas (Arlington)",
+   "home": "England",
+   "away": "Croatia",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.4844,
+    "p_draw": 0.2775,
+    "p_away": 0.238,
+    "xg_home": 1.44,
+    "xg_away": 0.93,
+    "top_scores": [
+     [
+      "1-1",
+      0.1302
+     ],
+     [
+      "1-0",
+      0.1299
+     ],
+     [
+      "0-0",
+      0.0987
+     ],
+     [
+      "2-0",
+      0.0971
+     ],
+     [
+      "2-1",
+      0.0901
+     ]
+    ],
+    "elo_home": 2086,
+    "elo_away": 1969,
+    "market": null,
+    "blended": {
+     "p_home": 0.4844,
+     "p_draw": 0.2775,
+     "p_away": 0.238,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "L",
+   "date": "2026-06-17",
+   "utc": "2026-06-17T23:00:00Z",
+   "venue": "Toronto",
+   "home": "Ghana",
+   "away": "Panama",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1499,
+    "p_draw": 0.2364,
+    "p_away": 0.6138,
+    "xg_home": 0.75,
+    "xg_away": 1.78,
+    "top_scores": [
+     [
+      "0-1",
+      0.1375
+     ],
+     [
+      "0-2",
+      0.1258
+     ],
+     [
+      "1-1",
+      0.1109
+     ],
+     [
+      "1-2",
+      0.0947
+     ],
+     [
+      "0-0",
+      0.0841
+     ]
+    ],
+    "elo_home": 1625,
+    "elo_away": 1854,
+    "market": null,
+    "blended": {
+     "p_home": 0.1499,
+     "p_draw": 0.2364,
+     "p_away": 0.6138,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "K",
+   "date": "2026-06-17",
+   "utc": "2026-06-18T02:00:00Z",
+   "venue": "Mexico City",
+   "home": "Uzbekistan",
+   "away": "Colombia",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1401,
+    "p_draw": 0.2296,
+    "p_away": 0.6302,
+    "xg_home": 0.73,
+    "xg_away": 1.82,
+    "top_scores": [
+     [
+      "0-1",
+      0.1373
+     ],
+     [
+      "0-2",
+      0.1291
+     ],
+     [
+      "1-1",
+      0.1077
+     ],
+     [
+      "1-2",
+      0.0945
+     ],
+     [
+      "0-0",
+      0.0817
+     ]
+    ],
+    "elo_home": 1821,
+    "elo_away": 2064,
+    "market": null,
+    "blended": {
+     "p_home": 0.1401,
+     "p_draw": 0.2296,
+     "p_away": 0.6302,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "A",
+   "date": "2026-06-18",
+   "utc": "2026-06-18T16:00:00Z",
+   "venue": "Atlanta",
+   "home": "Czech Republic",
+   "away": "South Africa",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.5099,
+    "p_draw": 0.2712,
+    "p_away": 0.2189,
+    "xg_home": 1.5,
+    "xg_away": 0.89,
+    "top_scores": [
+     [
+      "1-0",
+      0.1324
+     ],
+     [
+      "1-1",
+      0.1272
+     ],
+     [
+      "2-0",
+      0.103
+     ],
+     [
+      "0-0",
+      0.0965
+     ],
+     [
+      "2-1",
+      0.0917
+     ]
+    ],
+    "elo_home": 1802,
+    "elo_away": 1663,
+    "market": null,
+    "blended": {
+     "p_home": 0.5099,
+     "p_draw": 0.2712,
+     "p_away": 0.2189,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "B",
+   "date": "2026-06-18",
+   "utc": "2026-06-18T19:00:00Z",
+   "venue": "Los Angeles (Inglewood)",
+   "home": "Switzerland",
+   "away": "Bosnia & Herzegovina",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.6967,
+    "p_draw": 0.1993,
+    "p_away": 0.104,
+    "xg_home": 2.05,
+    "xg_away": 0.65,
+    "top_scores": [
+     [
+      "2-0",
+      0.1408
+     ],
+     [
+      "1-0",
+      0.1341
+     ],
+     [
+      "3-0",
+      0.096
+     ],
+     [
+      "1-1",
+      0.0935
+     ],
+     [
+      "2-1",
+      0.092
+     ]
+    ],
+    "elo_home": 1956,
+    "elo_away": 1652,
+    "market": null,
+    "blended": {
+     "p_home": 0.6967,
+     "p_draw": 0.1993,
+     "p_away": 0.104,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "B",
+   "date": "2026-06-18",
+   "utc": "2026-06-18T22:00:00Z",
+   "venue": "Vancouver",
+   "home": "Canada",
+   "away": "Qatar",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.8187,
+    "p_draw": 0.1314,
+    "p_away": 0.0499,
+    "xg_home": 2.6,
+    "xg_away": 0.51,
+    "top_scores": [
+     [
+      "2-0",
+      0.1502
+     ],
+     [
+      "3-0",
+      0.1302
+     ],
+     [
+      "1-0",
+      0.1131
+     ],
+     [
+      "4-0",
+      0.0847
+     ],
+     [
+      "2-1",
+      0.0771
+     ]
+    ],
+    "elo_home": 1899,
+    "elo_away": 1566,
+    "market": null,
+    "blended": {
+     "p_home": 0.8187,
+     "p_draw": 0.1314,
+     "p_away": 0.0499,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "A",
+   "date": "2026-06-18",
+   "utc": "2026-06-19T01:00:00Z",
+   "venue": "Guadalajara (Zapopan)",
+   "home": "Mexico",
+   "away": "South Korea",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.5798,
+    "p_draw": 0.2492,
+    "p_away": 0.1709,
+    "xg_home": 1.68,
+    "xg_away": 0.8,
+    "top_scores": [
+     [
+      "1-0",
+      0.1368
+     ],
+     [
+      "2-0",
+      0.1187
+     ],
+     [
+      "1-1",
+      0.117
+     ],
+     [
+      "2-1",
+      0.0944
+     ],
+     [
+      "0-0",
+      0.0887
+     ]
+    ],
+    "elo_home": 1980,
+    "elo_away": 1881,
+    "market": null,
+    "blended": {
+     "p_home": 0.5798,
+     "p_draw": 0.2492,
+     "p_away": 0.1709,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "D",
+   "date": "2026-06-19",
+   "utc": "2026-06-19T19:00:00Z",
+   "venue": "Seattle",
+   "home": "USA",
+   "away": "Australia",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3804,
+    "p_draw": 0.2927,
+    "p_away": 0.3269,
+    "xg_home": 1.21,
+    "xg_away": 1.1,
+    "top_scores": [
+     [
+      "1-1",
+      0.1373
+     ],
+     [
+      "1-0",
+      0.1144
+     ],
+     [
+      "0-0",
+      0.1041
+     ],
+     [
+      "0-1",
+      0.1037
+     ],
+     [
+      "2-1",
+      0.08
+     ]
+    ],
+    "elo_home": 1827,
+    "elo_away": 1902,
+    "market": null,
+    "blended": {
+     "p_home": 0.3804,
+     "p_draw": 0.2927,
+     "p_away": 0.3269,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "C",
+   "date": "2026-06-19",
+   "utc": "2026-06-19T22:00:00Z",
+   "venue": "Boston (Foxborough)",
+   "home": "Scotland",
+   "away": "Morocco",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.2173,
+    "p_draw": 0.2706,
+    "p_away": 0.512,
+    "xg_home": 0.89,
+    "xg_away": 1.5,
+    "top_scores": [
+     [
+      "0-1",
+      0.1326
+     ],
+     [
+      "1-1",
+      0.127
+     ],
+     [
+      "0-2",
+      0.1035
+     ],
+     [
+      "0-0",
+      0.0963
+     ],
+     [
+      "1-2",
+      0.0919
+     ]
+    ],
+    "elo_home": 1844,
+    "elo_away": 1985,
+    "market": null,
+    "blended": {
+     "p_home": 0.2173,
+     "p_draw": 0.2706,
+     "p_away": 0.512,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "C",
+   "date": "2026-06-19",
+   "utc": "2026-06-20T00:30:00Z",
+   "venue": "Philadelphia",
+   "home": "Brazil",
+   "away": "Haiti",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.7546,
+    "p_draw": 0.169,
+    "p_away": 0.0764,
+    "xg_home": 2.28,
+    "xg_away": 0.59,
+    "top_scores": [
+     [
+      "2-0",
+      0.1479
+     ],
+     [
+      "1-0",
+      0.1269
+     ],
+     [
+      "3-0",
+      0.1123
+     ],
+     [
+      "2-1",
+      0.0868
+     ],
+     [
+      "1-1",
+      0.0793
+     ]
+    ],
+    "elo_home": 2069,
+    "elo_away": 1707,
+    "market": null,
+    "blended": {
+     "p_home": 0.7546,
+     "p_draw": 0.169,
+     "p_away": 0.0764,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "D",
+   "date": "2026-06-19",
+   "utc": "2026-06-20T03:00:00Z",
+   "venue": "San Francisco Bay Area (Santa Clara)",
+   "home": "Turkey",
+   "away": "Paraguay",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.409,
+    "p_draw": 0.2903,
+    "p_away": 0.3006,
+    "xg_home": 1.27,
+    "xg_away": 1.05,
+    "top_scores": [
+     [
+      "1-1",
+      0.1362
+     ],
+     [
+      "1-0",
+      0.1194
+     ],
+     [
+      "0-0",
+      0.1033
+     ],
+     [
+      "0-1",
+      0.0978
+     ],
+     [
+      "2-1",
+      0.0833
+     ]
+    ],
+    "elo_home": 1969,
+    "elo_away": 1919,
+    "market": null,
+    "blended": {
+     "p_home": 0.409,
+     "p_draw": 0.2903,
+     "p_away": 0.3006,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "F",
+   "date": "2026-06-20",
+   "utc": "2026-06-20T17:00:00Z",
+   "venue": "Houston",
+   "home": "Netherlands",
+   "away": "Sweden",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.6265,
+    "p_draw": 0.2312,
+    "p_away": 0.1423,
+    "xg_home": 1.81,
+    "xg_away": 0.74,
+    "top_scores": [
+     [
+      "1-0",
+      0.1374
+     ],
+     [
+      "2-0",
+      0.1284
+     ],
+     [
+      "1-1",
+      0.1085
+     ],
+     [
+      "2-1",
+      0.0946
+     ],
+     [
+      "0-0",
+      0.0822
+     ]
+    ],
+    "elo_home": 2011,
+    "elo_away": 1771,
+    "market": null,
+    "blended": {
+     "p_home": 0.6265,
+     "p_draw": 0.2312,
+     "p_away": 0.1423,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "E",
+   "date": "2026-06-20",
+   "utc": "2026-06-20T20:00:00Z",
+   "venue": "Toronto",
+   "home": "Germany",
+   "away": "Ivory Coast",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.5688,
+    "p_draw": 0.2531,
+    "p_away": 0.178,
+    "xg_home": 1.65,
+    "xg_away": 0.81,
+    "top_scores": [
+     [
+      "1-0",
+      0.1364
+     ],
+     [
+      "1-1",
+      0.1188
+     ],
+     [
+      "2-0",
+      0.1163
+     ],
+     [
+      "2-1",
+      0.0942
+     ],
+     [
+      "0-0",
+      0.09
+     ]
+    ],
+    "elo_home": 2005,
+    "elo_away": 1815,
+    "market": null,
+    "blended": {
+     "p_home": 0.5688,
+     "p_draw": 0.2531,
+     "p_away": 0.178,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "E",
+   "date": "2026-06-20",
+   "utc": "2026-06-21T00:00:00Z",
+   "venue": "Kansas City",
+   "home": "Ecuador",
+   "away": "Curaçao",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.8098,
+    "p_draw": 0.1369,
+    "p_away": 0.0534,
+    "xg_home": 2.55,
+    "xg_away": 0.52,
+    "top_scores": [
+     [
+      "2-0",
+      0.1503
+     ],
+     [
+      "3-0",
+      0.1278
+     ],
+     [
+      "1-0",
+      0.1154
+     ],
+     [
+      "4-0",
+      0.0815
+     ],
+     [
+      "2-1",
+      0.0787
+     ]
+    ],
+    "elo_home": 2028,
+    "elo_away": 1606,
+    "market": null,
+    "blended": {
+     "p_home": 0.8098,
+     "p_draw": 0.1369,
+     "p_away": 0.0534,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "F",
+   "date": "2026-06-20",
+   "utc": "2026-06-21T04:00:00Z",
+   "venue": "Monterrey (Guadalupe)",
+   "home": "Tunisia",
+   "away": "Japan",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1325,
+    "p_draw": 0.2239,
+    "p_away": 0.6436,
+    "xg_home": 0.72,
+    "xg_away": 1.87,
+    "top_scores": [
+     [
+      "0-1",
+      0.1371
+     ],
+     [
+      "0-2",
+      0.1317
+     ],
+     [
+      "1-1",
+      0.1051
+     ],
+     [
+      "1-2",
+      0.0943
+     ],
+     [
+      "0-3",
+      0.0819
+     ]
+    ],
+    "elo_home": 1738,
+    "elo_away": 1994,
+    "market": null,
+    "blended": {
+     "p_home": 0.1325,
+     "p_draw": 0.2239,
+     "p_away": 0.6436,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "H",
+   "date": "2026-06-21",
+   "utc": "2026-06-21T16:00:00Z",
+   "venue": "Atlanta",
+   "home": "Spain",
+   "away": "Saudi Arabia",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.8868,
+    "p_draw": 0.0868,
+    "p_away": 0.0264,
+    "xg_home": 3.1,
+    "xg_away": 0.43,
+    "top_scores": [
+     [
+      "3-0",
+      0.1454
+     ],
+     [
+      "2-0",
+      0.1408
+     ],
+     [
+      "4-0",
+      0.1126
+     ],
+     [
+      "1-0",
+      0.0893
+     ],
+     [
+      "5-0",
+      0.0698
+     ]
+    ],
+    "elo_home": 2219,
+    "elo_away": 1693,
+    "market": null,
+    "blended": {
+     "p_home": 0.8868,
+     "p_draw": 0.0868,
+     "p_away": 0.0264,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "G",
+   "date": "2026-06-21",
+   "utc": "2026-06-21T19:00:00Z",
+   "venue": "Los Angeles (Inglewood)",
+   "home": "Belgium",
+   "away": "Iran",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.419,
+    "p_draw": 0.2892,
+    "p_away": 0.2918,
+    "xg_home": 1.29,
+    "xg_away": 1.03,
+    "top_scores": [
+     [
+      "1-1",
+      0.1357
+     ],
+     [
+      "1-0",
+      0.121
+     ],
+     [
+      "0-0",
+      0.1029
+     ],
+     [
+      "0-1",
+      0.0957
+     ],
+     [
+      "2-1",
+      0.0843
+     ]
+    ],
+    "elo_home": 1957,
+    "elo_away": 1897,
+    "market": null,
+    "blended": {
+     "p_home": 0.419,
+     "p_draw": 0.2892,
+     "p_away": 0.2918,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "H",
+   "date": "2026-06-21",
+   "utc": "2026-06-21T22:00:00Z",
+   "venue": "Miami (Miami Gardens)",
+   "home": "Uruguay",
+   "away": "Cape Verde",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.7149,
+    "p_draw": 0.1901,
+    "p_away": 0.095,
+    "xg_home": 2.11,
+    "xg_away": 0.63,
+    "top_scores": [
+     [
+      "2-0",
+      0.1434
+     ],
+     [
+      "1-0",
+      0.1323
+     ],
+     [
+      "3-0",
+      0.101
+     ],
+     [
+      "2-1",
+      0.0907
+     ],
+     [
+      "1-1",
+      0.0892
+     ]
+    ],
+    "elo_home": 1975,
+    "elo_away": 1654,
+    "market": null,
+    "blended": {
+     "p_home": 0.7149,
+     "p_draw": 0.1901,
+     "p_away": 0.095,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "G",
+   "date": "2026-06-21",
+   "utc": "2026-06-22T01:00:00Z",
+   "venue": "Vancouver",
+   "home": "New Zealand",
+   "away": "Egypt",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.2735,
+    "p_draw": 0.2861,
+    "p_away": 0.4403,
+    "xg_home": 1.0,
+    "xg_away": 1.34,
+    "top_scores": [
+     [
+      "1-1",
+      0.1343
+     ],
+     [
+      "0-1",
+      0.1242
+     ],
+     [
+      "0-0",
+      0.1018
+     ],
+     [
+      "1-0",
+      0.0912
+     ],
+     [
+      "0-2",
+      0.0867
+     ]
+    ],
+    "elo_home": 1732,
+    "elo_away": 1810,
+    "market": null,
+    "blended": {
+     "p_home": 0.2735,
+     "p_draw": 0.2861,
+     "p_away": 0.4403,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "J",
+   "date": "2026-06-22",
+   "utc": "2026-06-22T17:00:00Z",
+   "venue": "Dallas (Arlington)",
+   "home": "Argentina",
+   "away": "Austria",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.692,
+    "p_draw": 0.2016,
+    "p_away": 0.1064,
+    "xg_home": 2.03,
+    "xg_away": 0.66,
+    "top_scores": [
+     [
+      "2-0",
+      0.1401
+     ],
+     [
+      "1-0",
+      0.1345
+     ],
+     [
+      "3-0",
+      0.0947
+     ],
+     [
+      "1-1",
+      0.0946
+     ],
+     [
+      "2-1",
+      0.0922
+     ]
+    ],
+    "elo_home": 2190,
+    "elo_away": 1890,
+    "market": null,
+    "blended": {
+     "p_home": 0.692,
+     "p_draw": 0.2016,
+     "p_away": 0.1064,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "I",
+   "date": "2026-06-22",
+   "utc": "2026-06-22T21:00:00Z",
+   "venue": "Philadelphia",
+   "home": "France",
+   "away": "Iraq",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.7785,
+    "p_draw": 0.1554,
+    "p_away": 0.066,
+    "xg_home": 2.39,
+    "xg_away": 0.56,
+    "top_scores": [
+     [
+      "2-0",
+      0.1496
+     ],
+     [
+      "1-0",
+      0.1225
+     ],
+     [
+      "3-0",
+      0.1191
+     ],
+     [
+      "2-1",
+      0.0837
+     ],
+     [
+      "1-1",
+      0.0729
+     ]
+    ],
+    "elo_home": 2125,
+    "elo_away": 1738,
+    "market": null,
+    "blended": {
+     "p_home": 0.7785,
+     "p_draw": 0.1554,
+     "p_away": 0.066,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "I",
+   "date": "2026-06-22",
+   "utc": "2026-06-23T00:00:00Z",
+   "venue": "New York/New Jersey (East Rutherford)",
+   "home": "Norway",
+   "away": "Senegal",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.417,
+    "p_draw": 0.2894,
+    "p_away": 0.2935,
+    "xg_home": 1.29,
+    "xg_away": 1.04,
+    "top_scores": [
+     [
+      "1-1",
+      0.1358
+     ],
+     [
+      "1-0",
+      0.1207
+     ],
+     [
+      "0-0",
+      0.103
+     ],
+     [
+      "0-1",
+      0.0961
+     ],
+     [
+      "2-1",
+      0.0841
+     ]
+    ],
+    "elo_home": 1972,
+    "elo_away": 1914,
+    "market": null,
+    "blended": {
+     "p_home": 0.417,
+     "p_draw": 0.2894,
+     "p_away": 0.2935,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "J",
+   "date": "2026-06-22",
+   "utc": "2026-06-23T03:00:00Z",
+   "venue": "San Francisco Bay Area (Santa Clara)",
+   "home": "Jordan",
+   "away": "Algeria",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.2556,
+    "p_draw": 0.2822,
+    "p_away": 0.4622,
+    "xg_home": 0.96,
+    "xg_away": 1.39,
+    "top_scores": [
+     [
+      "1-1",
+      0.1324
+     ],
+     [
+      "0-1",
+      0.1272
+     ],
+     [
+      "0-0",
+      0.1004
+     ],
+     [
+      "0-2",
+      0.0918
+     ],
+     [
+      "1-2",
+      0.0884
+     ]
+    ],
+    "elo_home": 1775,
+    "elo_away": 1873,
+    "market": null,
+    "blended": {
+     "p_home": 0.2556,
+     "p_draw": 0.2822,
+     "p_away": 0.4622,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "K",
+   "date": "2026-06-23",
+   "utc": "2026-06-23T17:00:00Z",
+   "venue": "Houston",
+   "home": "Portugal",
+   "away": "Uzbekistan",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.606,
+    "p_draw": 0.2394,
+    "p_away": 0.1546,
+    "xg_home": 1.75,
+    "xg_away": 0.76,
+    "top_scores": [
+     [
+      "1-0",
+      0.1374
+     ],
+     [
+      "2-0",
+      0.1242
+     ],
+     [
+      "1-1",
+      0.1123
+     ],
+     [
+      "2-1",
+      0.0947
+     ],
+     [
+      "0-0",
+      0.0852
+     ]
+    ],
+    "elo_home": 2043,
+    "elo_away": 1821,
+    "market": null,
+    "blended": {
+     "p_home": 0.606,
+     "p_draw": 0.2394,
+     "p_away": 0.1546,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "L",
+   "date": "2026-06-23",
+   "utc": "2026-06-23T20:00:00Z",
+   "venue": "Boston (Foxborough)",
+   "home": "England",
+   "away": "Ghana",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.8414,
+    "p_draw": 0.1171,
+    "p_away": 0.0415,
+    "xg_home": 2.74,
+    "xg_away": 0.49,
+    "top_scores": [
+     [
+      "2-0",
+      0.1488
+     ],
+     [
+      "3-0",
+      0.1361
+     ],
+     [
+      "1-0",
+      0.1064
+     ],
+     [
+      "4-0",
+      0.0934
+     ],
+     [
+      "2-1",
+      0.0725
+     ]
+    ],
+    "elo_home": 2086,
+    "elo_away": 1625,
+    "market": null,
+    "blended": {
+     "p_home": 0.8414,
+     "p_draw": 0.1171,
+     "p_away": 0.0415,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "L",
+   "date": "2026-06-23",
+   "utc": "2026-06-23T23:00:00Z",
+   "venue": "Toronto",
+   "home": "Panama",
+   "away": "Croatia",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.2396,
+    "p_draw": 0.278,
+    "p_away": 0.4825,
+    "xg_home": 0.93,
+    "xg_away": 1.43,
+    "top_scores": [
+     [
+      "1-1",
+      0.1304
+     ],
+     [
+      "0-1",
+      0.1296
+     ],
+     [
+      "0-0",
+      0.0989
+     ],
+     [
+      "0-2",
+      0.0966
+     ],
+     [
+      "1-2",
+      0.09
+     ]
+    ],
+    "elo_home": 1854,
+    "elo_away": 1969,
+    "market": null,
+    "blended": {
+     "p_home": 0.2396,
+     "p_draw": 0.278,
+     "p_away": 0.4825,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "K",
+   "date": "2026-06-23",
+   "utc": "2026-06-24T02:00:00Z",
+   "venue": "Guadalajara (Zapopan)",
+   "home": "Colombia",
+   "away": "DR Congo",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.6928,
+    "p_draw": 0.2012,
+    "p_away": 0.106,
+    "xg_home": 2.03,
+    "xg_away": 0.66,
+    "top_scores": [
+     [
+      "2-0",
+      0.1402
+     ],
+     [
+      "1-0",
+      0.1344
+     ],
+     [
+      "3-0",
+      0.0949
+     ],
+     [
+      "1-1",
+      0.0944
+     ],
+     [
+      "2-1",
+      0.0922
+     ]
+    ],
+    "elo_home": 2064,
+    "elo_away": 1763,
+    "market": null,
+    "blended": {
+     "p_home": 0.6928,
+     "p_draw": 0.2012,
+     "p_away": 0.106,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "B",
+   "date": "2026-06-24",
+   "utc": "2026-06-24T19:00:00Z",
+   "venue": "Vancouver",
+   "home": "Switzerland",
+   "away": "Canada",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3088,
+    "p_draw": 0.2913,
+    "p_away": 0.3999,
+    "xg_home": 1.07,
+    "xg_away": 1.25,
+    "top_scores": [
+     [
+      "1-1",
+      0.1367
+     ],
+     [
+      "0-1",
+      0.1179
+     ],
+     [
+      "0-0",
+      0.1036
+     ],
+     [
+      "1-0",
+      0.0997
+     ],
+     [
+      "1-2",
+      0.0823
+     ]
+    ],
+    "elo_home": 1956,
+    "elo_away": 1899,
+    "market": null,
+    "blended": {
+     "p_home": 0.3088,
+     "p_draw": 0.2913,
+     "p_away": 0.3999,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "B",
+   "date": "2026-06-24",
+   "utc": "2026-06-24T19:00:00Z",
+   "venue": "Seattle",
+   "home": "Bosnia & Herzegovina",
+   "away": "Qatar",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.4483,
+    "p_draw": 0.2848,
+    "p_away": 0.2669,
+    "xg_home": 1.36,
+    "xg_away": 0.98,
+    "top_scores": [
+     [
+      "1-1",
+      0.1336
+     ],
+     [
+      "1-0",
+      0.1254
+     ],
+     [
+      "0-0",
+      0.1013
+     ],
+     [
+      "0-1",
+      0.0896
+     ],
+     [
+      "2-0",
+      0.0886
+     ]
+    ],
+    "elo_home": 1652,
+    "elo_away": 1566,
+    "market": null,
+    "blended": {
+     "p_home": 0.4483,
+     "p_draw": 0.2848,
+     "p_away": 0.2669,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "C",
+   "date": "2026-06-24",
+   "utc": "2026-06-24T22:00:00Z",
+   "venue": "Miami (Miami Gardens)",
+   "home": "Scotland",
+   "away": "Brazil",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1527,
+    "p_draw": 0.2383,
+    "p_away": 0.609,
+    "xg_home": 0.76,
+    "xg_away": 1.76,
+    "top_scores": [
+     [
+      "0-1",
+      0.1374
+     ],
+     [
+      "0-2",
+      0.1248
+     ],
+     [
+      "1-1",
+      0.1118
+     ],
+     [
+      "1-2",
+      0.0947
+     ],
+     [
+      "0-0",
+      0.0848
+     ]
+    ],
+    "elo_home": 1844,
+    "elo_away": 2069,
+    "market": null,
+    "blended": {
+     "p_home": 0.1527,
+     "p_draw": 0.2383,
+     "p_away": 0.609,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "C",
+   "date": "2026-06-24",
+   "utc": "2026-06-24T22:00:00Z",
+   "venue": "Atlanta",
+   "home": "Morocco",
+   "away": "Haiti",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.6679,
+    "p_draw": 0.213,
+    "p_away": 0.1191,
+    "xg_home": 1.95,
+    "xg_away": 0.69,
+    "top_scores": [
+     [
+      "2-0",
+      0.1361
+     ],
+     [
+      "1-0",
+      0.1361
+     ],
+     [
+      "1-1",
+      0.0999
+     ],
+     [
+      "2-1",
+      0.0935
+     ],
+     [
+      "3-0",
+      0.0882
+     ]
+    ],
+    "elo_home": 1985,
+    "elo_away": 1707,
+    "market": null,
+    "blended": {
+     "p_home": 0.6679,
+     "p_draw": 0.213,
+     "p_away": 0.1191,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "A",
+   "date": "2026-06-24",
+   "utc": "2026-06-25T01:00:00Z",
+   "venue": "Mexico City",
+   "home": "Czech Republic",
+   "away": "Mexico",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1186,
+    "p_draw": 0.2127,
+    "p_away": 0.6687,
+    "xg_home": 0.69,
+    "xg_away": 1.95,
+    "top_scores": [
+     [
+      "0-2",
+      0.1362
+     ],
+     [
+      "0-1",
+      0.136
+     ],
+     [
+      "1-1",
+      0.0998
+     ],
+     [
+      "1-2",
+      0.0934
+     ],
+     [
+      "0-3",
+      0.0884
+     ]
+    ],
+    "elo_home": 1802,
+    "elo_away": 1980,
+    "market": null,
+    "blended": {
+     "p_home": 0.1186,
+     "p_draw": 0.2127,
+     "p_away": 0.6687,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "A",
+   "date": "2026-06-24",
+   "utc": "2026-06-25T01:00:00Z",
+   "venue": "Monterrey (Guadalupe)",
+   "home": "South Africa",
+   "away": "South Korea",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1574,
+    "p_draw": 0.2413,
+    "p_away": 0.6013,
+    "xg_home": 0.77,
+    "xg_away": 1.74,
+    "top_scores": [
+     [
+      "0-1",
+      0.1374
+     ],
+     [
+      "0-2",
+      0.1232
+     ],
+     [
+      "1-1",
+      0.1132
+     ],
+     [
+      "1-2",
+      0.0947
+     ],
+     [
+      "0-0",
+      0.0858
+     ]
+    ],
+    "elo_home": 1663,
+    "elo_away": 1881,
+    "market": null,
+    "blended": {
+     "p_home": 0.1574,
+     "p_draw": 0.2413,
+     "p_away": 0.6013,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "E",
+   "date": "2026-06-25",
+   "utc": "2026-06-25T20:00:00Z",
+   "venue": "Philadelphia",
+   "home": "Curaçao",
+   "away": "Ivory Coast",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1637,
+    "p_draw": 0.2451,
+    "p_away": 0.5912,
+    "xg_home": 0.78,
+    "xg_away": 1.71,
+    "top_scores": [
+     [
+      "0-1",
+      0.1372
+     ],
+     [
+      "0-2",
+      0.1211
+     ],
+     [
+      "1-1",
+      0.115
+     ],
+     [
+      "1-2",
+      0.0946
+     ],
+     [
+      "0-0",
+      0.0872
+     ]
+    ],
+    "elo_home": 1606,
+    "elo_away": 1815,
+    "market": null,
+    "blended": {
+     "p_home": 0.1637,
+     "p_draw": 0.2451,
+     "p_away": 0.5912,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "E",
+   "date": "2026-06-25",
+   "utc": "2026-06-25T20:00:00Z",
+   "venue": "New York/New Jersey (East Rutherford)",
+   "home": "Ecuador",
+   "away": "Germany",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3786,
+    "p_draw": 0.2928,
+    "p_away": 0.3287,
+    "xg_home": 1.21,
+    "xg_away": 1.11,
+    "top_scores": [
+     [
+      "1-1",
+      0.1374
+     ],
+     [
+      "1-0",
+      0.1141
+     ],
+     [
+      "0-0",
+      0.1041
+     ],
+     [
+      "0-1",
+      0.1041
+     ],
+     [
+      "2-1",
+      0.0798
+     ]
+    ],
+    "elo_home": 2028,
+    "elo_away": 2005,
+    "market": null,
+    "blended": {
+     "p_home": 0.3786,
+     "p_draw": 0.2928,
+     "p_away": 0.3287,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "F",
+   "date": "2026-06-25",
+   "utc": "2026-06-25T23:00:00Z",
+   "venue": "Dallas (Arlington)",
+   "home": "Japan",
+   "away": "Sweden",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.607,
+    "p_draw": 0.239,
+    "p_away": 0.1539,
+    "xg_home": 1.76,
+    "xg_away": 0.76,
+    "top_scores": [
+     [
+      "1-0",
+      0.1374
+     ],
+     [
+      "2-0",
+      0.1244
+     ],
+     [
+      "1-1",
+      0.1122
+     ],
+     [
+      "2-1",
+      0.0947
+     ],
+     [
+      "0-0",
+      0.085
+     ]
+    ],
+    "elo_home": 1994,
+    "elo_away": 1771,
+    "market": null,
+    "blended": {
+     "p_home": 0.607,
+     "p_draw": 0.239,
+     "p_away": 0.1539,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "F",
+   "date": "2026-06-25",
+   "utc": "2026-06-25T23:00:00Z",
+   "venue": "Kansas City",
+   "home": "Tunisia",
+   "away": "Netherlands",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.122,
+    "p_draw": 0.2155,
+    "p_away": 0.6625,
+    "xg_home": 0.69,
+    "xg_away": 1.93,
+    "top_scores": [
+     [
+      "0-1",
+      0.1363
+     ],
+     [
+      "0-2",
+      0.1351
+     ],
+     [
+      "1-1",
+      0.1011
+     ],
+     [
+      "1-2",
+      0.0937
+     ],
+     [
+      "0-3",
+      0.0868
+     ]
+    ],
+    "elo_home": 1738,
+    "elo_away": 2011,
+    "market": null,
+    "blended": {
+     "p_home": 0.122,
+     "p_draw": 0.2155,
+     "p_away": 0.6625,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "D",
+   "date": "2026-06-25",
+   "utc": "2026-06-26T02:00:00Z",
+   "venue": "Los Angeles (Inglewood)",
+   "home": "Turkey",
+   "away": "USA",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3996,
+    "p_draw": 0.2913,
+    "p_away": 0.3091,
+    "xg_home": 1.25,
+    "xg_away": 1.07,
+    "top_scores": [
+     [
+      "1-1",
+      0.1367
+     ],
+     [
+      "1-0",
+      0.1179
+     ],
+     [
+      "0-0",
+      0.1036
+     ],
+     [
+      "0-1",
+      0.0997
+     ],
+     [
+      "2-1",
+      0.0822
+     ]
+    ],
+    "elo_home": 1969,
+    "elo_away": 1827,
+    "market": null,
+    "blended": {
+     "p_home": 0.3996,
+     "p_draw": 0.2913,
+     "p_away": 0.3091,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "D",
+   "date": "2026-06-25",
+   "utc": "2026-06-26T02:00:00Z",
+   "venue": "San Francisco Bay Area (Santa Clara)",
+   "home": "Paraguay",
+   "away": "Australia",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3712,
+    "p_draw": 0.2931,
+    "p_away": 0.3357,
+    "xg_home": 1.19,
+    "xg_away": 1.12,
+    "top_scores": [
+     [
+      "1-1",
+      0.1375
+     ],
+     [
+      "1-0",
+      0.1127
+     ],
+     [
+      "0-1",
+      0.1056
+     ],
+     [
+      "0-0",
+      0.1043
+     ],
+     [
+      "2-1",
+      0.0788
+     ]
+    ],
+    "elo_home": 1919,
+    "elo_away": 1902,
+    "market": null,
+    "blended": {
+     "p_home": 0.3712,
+     "p_draw": 0.2931,
+     "p_away": 0.3357,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "I",
+   "date": "2026-06-26",
+   "utc": "2026-06-26T19:00:00Z",
+   "venue": "Boston (Foxborough)",
+   "home": "Norway",
+   "away": "France",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.2068,
+    "p_draw": 0.2665,
+    "p_away": 0.5268,
+    "xg_home": 0.87,
+    "xg_away": 1.54,
+    "top_scores": [
+     [
+      "0-1",
+      0.1339
+     ],
+     [
+      "1-1",
+      0.125
+     ],
+     [
+      "0-2",
+      0.1069
+     ],
+     [
+      "0-0",
+      0.0948
+     ],
+     [
+      "1-2",
+      0.0926
+     ]
+    ],
+    "elo_home": 1972,
+    "elo_away": 2125,
+    "market": null,
+    "blended": {
+     "p_home": 0.2068,
+     "p_draw": 0.2665,
+     "p_away": 0.5268,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "I",
+   "date": "2026-06-26",
+   "utc": "2026-06-26T19:00:00Z",
+   "venue": "Toronto",
+   "home": "Senegal",
+   "away": "Iraq",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.5525,
+    "p_draw": 0.2586,
+    "p_away": 0.1889,
+    "xg_home": 1.61,
+    "xg_away": 0.83,
+    "top_scores": [
+     [
+      "1-0",
+      0.1356
+     ],
+     [
+      "1-1",
+      0.1213
+     ],
+     [
+      "2-0",
+      0.1127
+     ],
+     [
+      "2-1",
+      0.0937
+     ],
+     [
+      "0-0",
+      0.092
+     ]
+    ],
+    "elo_home": 1914,
+    "elo_away": 1738,
+    "market": null,
+    "blended": {
+     "p_home": 0.5525,
+     "p_draw": 0.2586,
+     "p_away": 0.1889,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "H",
+   "date": "2026-06-26",
+   "utc": "2026-06-27T00:00:00Z",
+   "venue": "Houston",
+   "home": "Cape Verde",
+   "away": "Saudi Arabia",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3121,
+    "p_draw": 0.2916,
+    "p_away": 0.3963,
+    "xg_home": 1.07,
+    "xg_away": 1.24,
+    "top_scores": [
+     [
+      "1-1",
+      0.1368
+     ],
+     [
+      "0-1",
+      0.1173
+     ],
+     [
+      "0-0",
+      0.1037
+     ],
+     [
+      "1-0",
+      0.1004
+     ],
+     [
+      "1-2",
+      0.0819
+     ]
+    ],
+    "elo_home": 1654,
+    "elo_away": 1693,
+    "market": null,
+    "blended": {
+     "p_home": 0.3121,
+     "p_draw": 0.2916,
+     "p_away": 0.3963,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "H",
+   "date": "2026-06-26",
+   "utc": "2026-06-27T00:00:00Z",
+   "venue": "Guadalajara (Zapopan)",
+   "home": "Uruguay",
+   "away": "Spain",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1401,
+    "p_draw": 0.2296,
+    "p_away": 0.6303,
+    "xg_home": 0.73,
+    "xg_away": 1.82,
+    "top_scores": [
+     [
+      "0-1",
+      0.1373
+     ],
+     [
+      "0-2",
+      0.1291
+     ],
+     [
+      "1-1",
+      0.1077
+     ],
+     [
+      "1-2",
+      0.0945
+     ],
+     [
+      "0-0",
+      0.0817
+     ]
+    ],
+    "elo_home": 1975,
+    "elo_away": 2219,
+    "market": null,
+    "blended": {
+     "p_home": 0.1401,
+     "p_draw": 0.2296,
+     "p_away": 0.6303,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "G",
+   "date": "2026-06-26",
+   "utc": "2026-06-27T03:00:00Z",
+   "venue": "Seattle",
+   "home": "Egypt",
+   "away": "Iran",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.2658,
+    "p_draw": 0.2846,
+    "p_away": 0.4497,
+    "xg_home": 0.98,
+    "xg_away": 1.36,
+    "top_scores": [
+     [
+      "1-1",
+      0.1335
+     ],
+     [
+      "0-1",
+      0.1256
+     ],
+     [
+      "0-0",
+      0.1012
+     ],
+     [
+      "1-0",
+      0.0893
+     ],
+     [
+      "0-2",
+      0.0889
+     ]
+    ],
+    "elo_home": 1810,
+    "elo_away": 1897,
+    "market": null,
+    "blended": {
+     "p_home": 0.2658,
+     "p_draw": 0.2846,
+     "p_away": 0.4497,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "G",
+   "date": "2026-06-26",
+   "utc": "2026-06-27T03:00:00Z",
+   "venue": "Vancouver",
+   "home": "New Zealand",
+   "away": "Belgium",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1525,
+    "p_draw": 0.2381,
+    "p_away": 0.6093,
+    "xg_home": 0.76,
+    "xg_away": 1.76,
+    "top_scores": [
+     [
+      "0-1",
+      0.1374
+     ],
+     [
+      "0-2",
+      0.1249
+     ],
+     [
+      "1-1",
+      0.1117
+     ],
+     [
+      "1-2",
+      0.0947
+     ],
+     [
+      "0-0",
+      0.0847
+     ]
+    ],
+    "elo_home": 1732,
+    "elo_away": 1957,
+    "market": null,
+    "blended": {
+     "p_home": 0.1525,
+     "p_draw": 0.2381,
+     "p_away": 0.6093,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "L",
+   "date": "2026-06-27",
+   "utc": "2026-06-27T21:00:00Z",
+   "venue": "New York/New Jersey (East Rutherford)",
+   "home": "Panama",
+   "away": "England",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.1477,
+    "p_draw": 0.2349,
+    "p_away": 0.6174,
+    "xg_home": 0.75,
+    "xg_away": 1.79,
+    "top_scores": [
+     [
+      "0-1",
+      0.1375
+     ],
+     [
+      "0-2",
+      0.1265
+     ],
+     [
+      "1-1",
+      0.1102
+     ],
+     [
+      "1-2",
+      0.0947
+     ],
+     [
+      "0-0",
+      0.0836
+     ]
+    ],
+    "elo_home": 1854,
+    "elo_away": 2086,
+    "market": null,
+    "blended": {
+     "p_home": 0.1477,
+     "p_draw": 0.2349,
+     "p_away": 0.6174,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "L",
+   "date": "2026-06-27",
+   "utc": "2026-06-27T21:00:00Z",
+   "venue": "Philadelphia",
+   "home": "Croatia",
+   "away": "Ghana",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.7375,
+    "p_draw": 0.1783,
+    "p_away": 0.0842,
+    "xg_home": 2.2,
+    "xg_away": 0.61,
+    "top_scores": [
+     [
+      "2-0",
+      0.1462
+     ],
+     [
+      "1-0",
+      0.1295
+     ],
+     [
+      "3-0",
+      0.1074
+     ],
+     [
+      "2-1",
+      0.0886
+     ],
+     [
+      "1-1",
+      0.0837
+     ]
+    ],
+    "elo_home": 1969,
+    "elo_away": 1625,
+    "market": null,
+    "blended": {
+     "p_home": 0.7375,
+     "p_draw": 0.1783,
+     "p_away": 0.0842,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "K",
+   "date": "2026-06-27",
+   "utc": "2026-06-27T23:30:00Z",
+   "venue": "Miami (Miami Gardens)",
+   "home": "Colombia",
+   "away": "Portugal",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3764,
+    "p_draw": 0.2929,
+    "p_away": 0.3307,
+    "xg_home": 1.2,
+    "xg_away": 1.11,
+    "top_scores": [
+     [
+      "1-1",
+      0.1374
+     ],
+     [
+      "1-0",
+      0.1137
+     ],
+     [
+      "0-1",
+      0.1045
+     ],
+     [
+      "0-0",
+      0.1042
+     ],
+     [
+      "2-1",
+      0.0795
+     ]
+    ],
+    "elo_home": 2064,
+    "elo_away": 2043,
+    "market": null,
+    "blended": {
+     "p_home": 0.3764,
+     "p_draw": 0.2929,
+     "p_away": 0.3307,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "K",
+   "date": "2026-06-27",
+   "utc": "2026-06-27T23:30:00Z",
+   "venue": "Atlanta",
+   "home": "DR Congo",
+   "away": "Uzbekistan",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.2943,
+    "p_draw": 0.2895,
+    "p_away": 0.4162,
+    "xg_home": 1.04,
+    "xg_away": 1.29,
+    "top_scores": [
+     [
+      "1-1",
+      0.1359
+     ],
+     [
+      "0-1",
+      0.1206
+     ],
+     [
+      "0-0",
+      0.103
+     ],
+     [
+      "1-0",
+      0.0963
+     ],
+     [
+      "1-2",
+      0.0841
+     ]
+    ],
+    "elo_home": 1763,
+    "elo_away": 1821,
+    "market": null,
+    "blended": {
+     "p_home": 0.2943,
+     "p_draw": 0.2895,
+     "p_away": 0.4162,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "J",
+   "date": "2026-06-27",
+   "utc": "2026-06-28T02:00:00Z",
+   "venue": "Kansas City",
+   "home": "Algeria",
+   "away": "Austria",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.3354,
+    "p_draw": 0.2931,
+    "p_away": 0.3716,
+    "xg_home": 1.12,
+    "xg_away": 1.19,
+    "top_scores": [
+     [
+      "1-1",
+      0.1375
+     ],
+     [
+      "0-1",
+      0.1128
+     ],
+     [
+      "1-0",
+      0.1055
+     ],
+     [
+      "0-0",
+      0.1043
+     ],
+     [
+      "1-2",
+      0.0789
+     ]
+    ],
+    "elo_home": 1873,
+    "elo_away": 1890,
+    "market": null,
+    "blended": {
+     "p_home": 0.3354,
+     "p_draw": 0.2931,
+     "p_away": 0.3716,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": null,
+   "round": "group",
+   "stage": "Gruppespill",
+   "group": "J",
+   "date": "2026-06-27",
+   "utc": "2026-06-28T02:00:00Z",
+   "venue": "Dallas (Arlington)",
+   "home": "Jordan",
+   "away": "Argentina",
+   "placeholder": false,
+   "status": "scheduled",
+   "pred": {
+    "p_home": 0.0559,
+    "p_draw": 0.1408,
+    "p_away": 0.8033,
+    "xg_home": 0.53,
+    "xg_away": 2.51,
+    "top_scores": [
+     [
+      "0-2",
+      0.1504
+     ],
+     [
+      "0-3",
+      0.126
+     ],
+     [
+      "0-1",
+      0.117
+     ],
+     [
+      "1-2",
+      0.0799
+     ],
+     [
+      "0-4",
+      0.0792
+     ]
+    ],
+    "elo_home": 1775,
+    "elo_away": 2190,
+    "market": null,
+    "blended": {
+     "p_home": 0.0559,
+     "p_draw": 0.1408,
+     "p_away": 0.8033,
+     "source": "modell"
+    }
+   }
+  },
+  {
+   "num": 73,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-06-28",
+   "utc": "2026-06-28T19:00:00Z",
+   "venue": "Los Angeles (Inglewood)",
+   "home": "2A",
+   "away": "2B",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Switzerland",
+     "p": 0.4593
+    },
+    {
+     "team": "South Korea",
+     "p": 0.4024
+    },
+    {
+     "team": "Canada",
+     "p": 0.3567
+    },
+    {
+     "team": "Czech Republic",
+     "p": 0.2764
+    },
+    {
+     "team": "Mexico",
+     "p": 0.2123
+    },
+    {
+     "team": "Bosnia & Herzegovina",
+     "p": 0.124
+    }
+   ]
+  },
+  {
+   "num": 76,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-06-29",
+   "utc": "2026-06-29T17:00:00Z",
+   "venue": "Houston",
+   "home": "1C",
+   "away": "2F",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Brazil",
+     "p": 0.5588
+    },
+    {
+     "team": "Japan",
+     "p": 0.3585
+    },
+    {
+     "team": "Netherlands",
+     "p": 0.3327
+    },
+    {
+     "team": "Morocco",
+     "p": 0.3137
+    },
+    {
+     "team": "Sweden",
+     "p": 0.1721
+    },
+    {
+     "team": "Tunisia",
+     "p": 0.1367
+    }
+   ]
+  },
+  {
+   "num": 74,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-06-29",
+   "utc": "2026-06-29T20:30:00Z",
+   "venue": "Boston (Foxborough)",
+   "home": "1E",
+   "away": "3A/B/C/D/F",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Ecuador",
+     "p": 0.4852
+    },
+    {
+     "team": "Germany",
+     "p": 0.413
+    },
+    {
+     "team": "Ivory Coast",
+     "p": 0.091
+    },
+    {
+     "team": "Bosnia & Herzegovina",
+     "p": 0.0835
+    },
+    {
+     "team": "Czech Republic",
+     "p": 0.0783
+    },
+    {
+     "team": "Scotland",
+     "p": 0.0758
+    }
+   ]
+  },
+  {
+   "num": 75,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-06-29",
+   "utc": "2026-06-30T01:00:00Z",
+   "venue": "Monterrey (Guadalupe)",
+   "home": "1F",
+   "away": "2C",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Netherlands",
+     "p": 0.4645
+    },
+    {
+     "team": "Japan",
+     "p": 0.41
+    },
+    {
+     "team": "Morocco",
+     "p": 0.384
+    },
+    {
+     "team": "Brazil",
+     "p": 0.2866
+    },
+    {
+     "team": "Scotland",
+     "p": 0.2338
+    },
+    {
+     "team": "Haiti",
+     "p": 0.0956
+    }
+   ]
+  },
+  {
+   "num": 78,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-06-30",
+   "utc": "2026-06-30T17:00:00Z",
+   "venue": "Dallas (Arlington)",
+   "home": "2E",
+   "away": "2I",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Germany",
+     "p": 0.3812
+    },
+    {
+     "team": "Norway",
+     "p": 0.3592
+    },
+    {
+     "team": "Ecuador",
+     "p": 0.3455
+    },
+    {
+     "team": "Senegal",
+     "p": 0.2981
+    },
+    {
+     "team": "France",
+     "p": 0.2483
+    },
+    {
+     "team": "Ivory Coast",
+     "p": 0.2253
+    }
+   ]
+  },
+  {
+   "num": 77,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-06-30",
+   "utc": "2026-06-30T21:00:00Z",
+   "venue": "New York/New Jersey (East Rutherford)",
+   "home": "1I",
+   "away": "3C/D/F/G/H",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "France",
+     "p": 0.6138
+    },
+    {
+     "team": "Norway",
+     "p": 0.219
+    },
+    {
+     "team": "Senegal",
+     "p": 0.1398
+    },
+    {
+     "team": "USA",
+     "p": 0.0922
+    },
+    {
+     "team": "Paraguay",
+     "p": 0.0895
+    },
+    {
+     "team": "Australia",
+     "p": 0.088
+    }
+   ]
+  },
+  {
+   "num": 79,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-06-30",
+   "utc": "2026-07-01T01:00:00Z",
+   "venue": "Mexico City",
+   "home": "1A",
+   "away": "3C/E/F/H/I",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Mexico",
+     "p": 0.6944
+    },
+    {
+     "team": "South Korea",
+     "p": 0.1841
+    },
+    {
+     "team": "Scotland",
+     "p": 0.1241
+    },
+    {
+     "team": "Czech Republic",
+     "p": 0.0956
+    },
+    {
+     "team": "Ivory Coast",
+     "p": 0.0893
+    },
+    {
+     "team": "Morocco",
+     "p": 0.0783
+    }
+   ]
+  },
+  {
+   "num": 80,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-07-01",
+   "utc": "2026-07-01T16:00:00Z",
+   "venue": "Atlanta",
+   "home": "1L",
+   "away": "3E/H/I/J/K",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "England",
+     "p": 0.5939
+    },
+    {
+     "team": "Croatia",
+     "p": 0.2845
+    },
+    {
+     "team": "Uzbekistan",
+     "p": 0.2516
+    },
+    {
+     "team": "DR Congo",
+     "p": 0.1826
+    },
+    {
+     "team": "Portugal",
+     "p": 0.1301
+    },
+    {
+     "team": "Colombia",
+     "p": 0.1141
+    }
+   ]
+  },
+  {
+   "num": 82,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-07-01",
+   "utc": "2026-07-01T20:00:00Z",
+   "venue": "Seattle",
+   "home": "1G",
+   "away": "3A/E/H/I/J",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Belgium",
+     "p": 0.4482
+    },
+    {
+     "team": "Iran",
+     "p": 0.3102
+    },
+    {
+     "team": "Czech Republic",
+     "p": 0.1728
+    },
+    {
+     "team": "Egypt",
+     "p": 0.1587
+    },
+    {
+     "team": "South Korea",
+     "p": 0.1334
+    },
+    {
+     "team": "South Africa",
+     "p": 0.0945
+    }
+   ]
+  },
+  {
+   "num": 81,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-07-01",
+   "utc": "2026-07-02T00:00:00Z",
+   "venue": "San Francisco Bay Area (Santa Clara)",
+   "home": "1D",
+   "away": "3B/E/F/I/J",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Turkey",
+     "p": 0.3282
+    },
+    {
+     "team": "USA",
+     "p": 0.2419
+    },
+    {
+     "team": "Paraguay",
+     "p": 0.2333
+    },
+    {
+     "team": "Australia",
+     "p": 0.1966
+    },
+    {
+     "team": "Bosnia & Herzegovina",
+     "p": 0.1884
+    },
+    {
+     "team": "Qatar",
+     "p": 0.1093
+    }
+   ]
+  },
+  {
+   "num": 84,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-07-02",
+   "utc": "2026-07-02T19:00:00Z",
+   "venue": "Los Angeles (Inglewood)",
+   "home": "1H",
+   "away": "2J",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Spain",
+     "p": 0.808
+    },
+    {
+     "team": "Austria",
+     "p": 0.3554
+    },
+    {
+     "team": "Algeria",
+     "p": 0.3202
+    },
+    {
+     "team": "Uruguay",
+     "p": 0.1732
+    },
+    {
+     "team": "Jordan",
+     "p": 0.1719
+    },
+    {
+     "team": "Argentina",
+     "p": 0.1525
+    }
+   ]
+  },
+  {
+   "num": 83,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-07-02",
+   "utc": "2026-07-02T23:00:00Z",
+   "venue": "Toronto",
+   "home": "2K",
+   "away": "2L",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Croatia",
+     "p": 0.4034
+    },
+    {
+     "team": "Portugal",
+     "p": 0.3672
+    },
+    {
+     "team": "Colombia",
+     "p": 0.3447
+    },
+    {
+     "team": "England",
+     "p": 0.2722
+    },
+    {
+     "team": "Panama",
+     "p": 0.2705
+    },
+    {
+     "team": "Uzbekistan",
+     "p": 0.1679
+    }
+   ]
+  },
+  {
+   "num": 85,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-07-02",
+   "utc": "2026-07-03T03:00:00Z",
+   "venue": "Vancouver",
+   "home": "1B",
+   "away": "3E/F/G/I/J",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Canada",
+     "p": 0.5422
+    },
+    {
+     "team": "Switzerland",
+     "p": 0.4108
+    },
+    {
+     "team": "Egypt",
+     "p": 0.1595
+    },
+    {
+     "team": "Iran",
+     "p": 0.1272
+    },
+    {
+     "team": "New Zealand",
+     "p": 0.1271
+    },
+    {
+     "team": "Belgium",
+     "p": 0.101
+    }
+   ]
+  },
+  {
+   "num": 88,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-07-03",
+   "utc": "2026-07-03T18:00:00Z",
+   "venue": "Dallas (Arlington)",
+   "home": "2D",
+   "away": "2G",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Iran",
+     "p": 0.3104
+    },
+    {
+     "team": "Belgium",
+     "p": 0.2875
+    },
+    {
+     "team": "Turkey",
+     "p": 0.2645
+    },
+    {
+     "team": "USA",
+     "p": 0.261
+    },
+    {
+     "team": "Egypt",
+     "p": 0.2483
+    },
+    {
+     "team": "Paraguay",
+     "p": 0.2437
+    }
+   ]
+  },
+  {
+   "num": 86,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-07-03",
+   "utc": "2026-07-03T22:00:00Z",
+   "venue": "Miami (Miami Gardens)",
+   "home": "1J",
+   "away": "2H",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Argentina",
+     "p": 0.7888
+    },
+    {
+     "team": "Uruguay",
+     "p": 0.6325
+    },
+    {
+     "team": "Spain",
+     "p": 0.1711
+    },
+    {
+     "team": "Saudi Arabia",
+     "p": 0.1129
+    },
+    {
+     "team": "Austria",
+     "p": 0.0976
+    },
+    {
+     "team": "Cape Verde",
+     "p": 0.0835
+    }
+   ]
+  },
+  {
+   "num": 87,
+   "round": "r32",
+   "stage": "Sekstendedelsfinale",
+   "group": null,
+   "date": "2026-07-03",
+   "utc": "2026-07-04T01:30:00Z",
+   "venue": "Kansas City",
+   "home": "1K",
+   "away": "3D/E/I/J/L",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Colombia",
+     "p": 0.4689
+    },
+    {
+     "team": "Portugal",
+     "p": 0.4134
+    },
+    {
+     "team": "Panama",
+     "p": 0.3209
+    },
+    {
+     "team": "Croatia",
+     "p": 0.1969
+    },
+    {
+     "team": "England",
+     "p": 0.1005
+    },
+    {
+     "team": "Ghana",
+     "p": 0.0989
+    }
+   ]
+  },
+  {
+   "num": 90,
+   "round": "r16",
+   "stage": "Åttendedelsfinale",
+   "group": null,
+   "date": "2026-07-04",
+   "utc": "2026-07-04T17:00:00Z",
+   "venue": "Houston",
+   "home": "W73",
+   "away": "W75",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Switzerland",
+     "p": 0.2891
+    },
+    {
+     "team": "Netherlands",
+     "p": 0.271
+    },
+    {
+     "team": "Japan",
+     "p": 0.2289
+    },
+    {
+     "team": "South Korea",
+     "p": 0.2015
+    },
+    {
+     "team": "Canada",
+     "p": 0.1985
+    },
+    {
+     "team": "Morocco",
+     "p": 0.1955
+    }
+   ]
+  },
+  {
+   "num": 89,
+   "round": "r16",
+   "stage": "Åttendedelsfinale",
+   "group": null,
+   "date": "2026-07-04",
+   "utc": "2026-07-04T21:00:00Z",
+   "venue": "Philadelphia",
+   "home": "W74",
+   "away": "W77",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "France",
+     "p": 0.4897
+    },
+    {
+     "team": "Ecuador",
+     "p": 0.3516
+    },
+    {
+     "team": "Germany",
+     "p": 0.2914
+    },
+    {
+     "team": "Norway",
+     "p": 0.1373
+    },
+    {
+     "team": "Senegal",
+     "p": 0.0767
+    },
+    {
+     "team": "Turkey",
+     "p": 0.0586
+    }
+   ]
+  },
+  {
+   "num": 91,
+   "round": "r16",
+   "stage": "Åttendedelsfinale",
+   "group": null,
+   "date": "2026-07-05",
+   "utc": "2026-07-05T20:00:00Z",
+   "venue": "New York/New Jersey (East Rutherford)",
+   "home": "W76",
+   "away": "W78",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Brazil",
+     "p": 0.3797
+    },
+    {
+     "team": "Germany",
+     "p": 0.2057
+    },
+    {
+     "team": "Ecuador",
+     "p": 0.1955
+    },
+    {
+     "team": "Norway",
+     "p": 0.1884
+    },
+    {
+     "team": "France",
+     "p": 0.1797
+    },
+    {
+     "team": "Morocco",
+     "p": 0.1763
+    }
+   ]
+  },
+  {
+   "num": 92,
+   "round": "r16",
+   "stage": "Åttendedelsfinale",
+   "group": null,
+   "date": "2026-07-05",
+   "utc": "2026-07-06T00:00:00Z",
+   "venue": "Mexico City",
+   "home": "W79",
+   "away": "W80",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Mexico",
+     "p": 0.5227
+    },
+    {
+     "team": "England",
+     "p": 0.4404
+    },
+    {
+     "team": "Croatia",
+     "p": 0.1743
+    },
+    {
+     "team": "South Korea",
+     "p": 0.097
+    },
+    {
+     "team": "Portugal",
+     "p": 0.071
+    },
+    {
+     "team": "Colombia",
+     "p": 0.0642
+    }
+   ]
+  },
+  {
+   "num": 93,
+   "round": "r16",
+   "stage": "Åttendedelsfinale",
+   "group": null,
+   "date": "2026-07-06",
+   "utc": "2026-07-06T19:00:00Z",
+   "venue": "Dallas (Arlington)",
+   "home": "W83",
+   "away": "W84",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Spain",
+     "p": 0.6676
+    },
+    {
+     "team": "Portugal",
+     "p": 0.228
+    },
+    {
+     "team": "Colombia",
+     "p": 0.2177
+    },
+    {
+     "team": "Croatia",
+     "p": 0.197
+    },
+    {
+     "team": "England",
+     "p": 0.173
+    },
+    {
+     "team": "Uruguay",
+     "p": 0.1014
+    }
+   ]
+  },
+  {
+   "num": 94,
+   "round": "r16",
+   "stage": "Åttendedelsfinale",
+   "group": null,
+   "date": "2026-07-06",
+   "utc": "2026-07-07T00:00:00Z",
+   "venue": "Seattle",
+   "home": "W81",
+   "away": "W82",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Belgium",
+     "p": 0.2881
+    },
+    {
+     "team": "Turkey",
+     "p": 0.2251
+    },
+    {
+     "team": "Iran",
+     "p": 0.1761
+    },
+    {
+     "team": "USA",
+     "p": 0.1588
+    },
+    {
+     "team": "Paraguay",
+     "p": 0.148
+    },
+    {
+     "team": "Australia",
+     "p": 0.1217
+    }
+   ]
+  },
+  {
+   "num": 95,
+   "round": "r16",
+   "stage": "Åttendedelsfinale",
+   "group": null,
+   "date": "2026-07-07",
+   "utc": "2026-07-07T16:00:00Z",
+   "venue": "Atlanta",
+   "home": "W86",
+   "away": "W88",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Argentina",
+     "p": 0.5982
+    },
+    {
+     "team": "Uruguay",
+     "p": 0.1923
+    },
+    {
+     "team": "Turkey",
+     "p": 0.1689
+    },
+    {
+     "team": "USA",
+     "p": 0.1521
+    },
+    {
+     "team": "Belgium",
+     "p": 0.1514
+    },
+    {
+     "team": "Iran",
+     "p": 0.143
+    }
+   ]
+  },
+  {
+   "num": 96,
+   "round": "r16",
+   "stage": "Åttendedelsfinale",
+   "group": null,
+   "date": "2026-07-07",
+   "utc": "2026-07-07T20:00:00Z",
+   "venue": "Vancouver",
+   "home": "W85",
+   "away": "W87",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Canada",
+     "p": 0.3655
+    },
+    {
+     "team": "Colombia",
+     "p": 0.3374
+    },
+    {
+     "team": "Portugal",
+     "p": 0.2822
+    },
+    {
+     "team": "Switzerland",
+     "p": 0.261
+    },
+    {
+     "team": "Panama",
+     "p": 0.0905
+    },
+    {
+     "team": "Croatia",
+     "p": 0.083
+    }
+   ]
+  },
+  {
+   "num": 97,
+   "round": "qf",
+   "stage": "Kvartfinale",
+   "group": null,
+   "date": "2026-07-09",
+   "utc": "2026-07-09T20:00:00Z",
+   "venue": "Boston (Foxborough)",
+   "home": "W89",
+   "away": "W90",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "France",
+     "p": 0.3457
+    },
+    {
+     "team": "Netherlands",
+     "p": 0.1848
+    },
+    {
+     "team": "Ecuador",
+     "p": 0.1764
+    },
+    {
+     "team": "Japan",
+     "p": 0.1533
+    },
+    {
+     "team": "Brazil",
+     "p": 0.1449
+    },
+    {
+     "team": "Morocco",
+     "p": 0.1398
+    }
+   ]
+  },
+  {
+   "num": 98,
+   "round": "qf",
+   "stage": "Kvartfinale",
+   "group": null,
+   "date": "2026-07-10",
+   "utc": "2026-07-10T19:00:00Z",
+   "venue": "Los Angeles (Inglewood)",
+   "home": "W93",
+   "away": "W94",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Spain",
+     "p": 0.5119
+    },
+    {
+     "team": "Belgium",
+     "p": 0.1602
+    },
+    {
+     "team": "Turkey",
+     "p": 0.1303
+    },
+    {
+     "team": "Portugal",
+     "p": 0.089
+    },
+    {
+     "team": "Colombia",
+     "p": 0.0878
+    },
+    {
+     "team": "USA",
+     "p": 0.0867
+    }
+   ]
+  },
+  {
+   "num": 99,
+   "round": "qf",
+   "stage": "Kvartfinale",
+   "group": null,
+   "date": "2026-07-11",
+   "utc": "2026-07-11T21:00:00Z",
+   "venue": "Miami (Miami Gardens)",
+   "home": "W91",
+   "away": "W92",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Mexico",
+     "p": 0.315
+    },
+    {
+     "team": "England",
+     "p": 0.2713
+    },
+    {
+     "team": "Brazil",
+     "p": 0.2433
+    },
+    {
+     "team": "France",
+     "p": 0.135
+    },
+    {
+     "team": "Germany",
+     "p": 0.1166
+    },
+    {
+     "team": "Ecuador",
+     "p": 0.1126
+    }
+   ]
+  },
+  {
+   "num": 100,
+   "round": "qf",
+   "stage": "Kvartfinale",
+   "group": null,
+   "date": "2026-07-11",
+   "utc": "2026-07-12T01:00:00Z",
+   "venue": "Kansas City",
+   "home": "W95",
+   "away": "W96",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Argentina",
+     "p": 0.5069
+    },
+    {
+     "team": "Colombia",
+     "p": 0.2192
+    },
+    {
+     "team": "Canada",
+     "p": 0.1813
+    },
+    {
+     "team": "Portugal",
+     "p": 0.1755
+    },
+    {
+     "team": "Uruguay",
+     "p": 0.113
+    },
+    {
+     "team": "Switzerland",
+     "p": 0.1107
+    }
+   ]
+  },
+  {
+   "num": 101,
+   "round": "sf",
+   "stage": "Semifinale",
+   "group": null,
+   "date": "2026-07-14",
+   "utc": "2026-07-14T19:00:00Z",
+   "venue": "Dallas (Arlington)",
+   "home": "W97",
+   "away": "W98",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Spain",
+     "p": 0.4323
+    },
+    {
+     "team": "France",
+     "p": 0.2538
+    },
+    {
+     "team": "Ecuador",
+     "p": 0.1115
+    },
+    {
+     "team": "Netherlands",
+     "p": 0.0924
+    },
+    {
+     "team": "Germany",
+     "p": 0.0837
+    },
+    {
+     "team": "Brazil",
+     "p": 0.0824
+    }
+   ]
+  },
+  {
+   "num": 102,
+   "round": "sf",
+   "stage": "Semifinale",
+   "group": null,
+   "date": "2026-07-15",
+   "utc": "2026-07-15T19:00:00Z",
+   "venue": "Atlanta",
+   "home": "W99",
+   "away": "W100",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Argentina",
+     "p": 0.388
+    },
+    {
+     "team": "England",
+     "p": 0.1792
+    },
+    {
+     "team": "Brazil",
+     "p": 0.1481
+    },
+    {
+     "team": "Mexico",
+     "p": 0.1401
+    },
+    {
+     "team": "Colombia",
+     "p": 0.127
+    },
+    {
+     "team": "Portugal",
+     "p": 0.098
+    }
+   ]
+  },
+  {
+   "num": 103,
+   "round": "third",
+   "stage": "Bronsefinale",
+   "group": null,
+   "date": "2026-07-18",
+   "utc": "2026-07-18T21:00:00Z",
+   "venue": "Miami (Miami Gardens)",
+   "home": "L101",
+   "away": "L102",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "France",
+     "p": 0.1556
+    },
+    {
+     "team": "Spain",
+     "p": 0.1273
+    },
+    {
+     "team": "Argentina",
+     "p": 0.1259
+    },
+    {
+     "team": "Brazil",
+     "p": 0.1223
+    },
+    {
+     "team": "Mexico",
+     "p": 0.112
+    },
+    {
+     "team": "England",
+     "p": 0.1089
+    }
+   ]
+  },
+  {
+   "num": 104,
+   "round": "final",
+   "stage": "Finale",
+   "group": null,
+   "date": "2026-07-19",
+   "utc": "2026-07-19T19:00:00Z",
+   "venue": "New York/New Jersey (East Rutherford)",
+   "home": "W101",
+   "away": "W102",
+   "placeholder": true,
+   "status": "scheduled",
+   "likely_participants": [
+    {
+     "team": "Spain",
+     "p": 0.3773
+    },
+    {
+     "team": "Argentina",
+     "p": 0.3195
+    },
+    {
+     "team": "France",
+     "p": 0.1917
+    },
+    {
+     "team": "England",
+     "p": 0.1216
+    },
+    {
+     "team": "Brazil",
+     "p": 0.1082
+    },
+    {
+     "team": "Colombia",
+     "p": 0.1034
+    }
+   ]
+  }
+ ]
+}

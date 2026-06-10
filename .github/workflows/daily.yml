@@ -1,0 +1,69 @@
+name: Daglig oppdatering og publisering
+
+on:
+  schedule:
+    - cron: "30 5 * * *" # hver dag 05:30 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  bygg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sjekk ut kode
+        uses: actions/checkout@v4
+
+      - name: Sett opp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kjør tester
+        run: make test
+
+      - name: Hent data og bygg prediksjoner
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+        run: make data
+
+      - name: Commit oppdaterte data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/data/predictions.json data/seed/
+          if ! git diff --cached --quiet; then
+            git commit -m "Daglig dataoppdatering $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "Ingen endringer i dag."
+          fi
+
+      - name: Konfigurer GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Last opp nettsiden
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+  publiser:
+    needs: bygg
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publiser til GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

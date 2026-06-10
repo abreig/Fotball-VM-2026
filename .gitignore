@@ -1,0 +1,7 @@
+# Nedlastede rådata (hentes på nytt av pipeline.fetch)
+data/cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
