@@ -168,8 +168,12 @@ Thu June 25
 
 ▪ Group G
 Mon June 15
-  12:00 UTC-7    Belgium  v Egypt        @ Seattle
-  18:00 UTC-7    Iran       v New Zealand  @ Los Angeles (Inglewood)
+  12:00 UTC-7    Belgium  1-1 (0-1) Egypt        @ Seattle
+				(Mohamed Hany 66'(og);
+					Emam Ashour 19')
+  18:00 UTC-7    Iran       2-2 (1-1) New Zealand  @ Los Angeles (Inglewood)
+                    (Ramin Rezaeian 32' Mohammad Mohebbi 64';
+                       Elijah Just 7', 54')
 Sun June 21
   12:00 UTC-7    Belgium      v Iran    @ Los Angeles (Inglewood)
   18:00 UTC-7    New Zealand  v Egypt   @ Vancouver
@@ -180,8 +184,10 @@ Fri June 26
 
 ▪ Group H
 Mon June 15
-  12:00 UTC-4   Spain  v Cape Verde   @ Atlanta
-  18:00 UTC-4   Saudi Arabia   v Uruguay  @ Miami (Miami Gardens)
+  12:00 UTC-4   Spain  0-0 (0-0) Cape Verde   @ Atlanta
+  18:00 UTC-4   Saudi Arabia   1-1 (1-0) Uruguay  @ Miami (Miami Gardens)
+                    (Abdulelah Al-Amri 41';
+                       Maxi Araújo 80')
 Sun June 21
   12:00 UTC-4    Spain   v Saudi Arabia   @ Atlanta
   18:00 UTC-4    Uruguay v Cape Verde     @ Miami (Miami Gardens)
