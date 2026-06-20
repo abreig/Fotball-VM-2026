@@ -117,8 +117,10 @@ Sat June 13
   21:00 UTC-4        Haiti    0-1 (0-1) Scotland   @ Boston (Foxborough)
                     (John McGinn 28')
 Fri June 19
-  18:00 UTC-4        Scotland  v Morocco    @ Boston (Foxborough)
-  20:30 UTC-4        Brazil    v Haiti      @ Philadelphia
+  18:00 UTC-4        Scotland  0-1 (0-1) Morocco    @ Boston (Foxborough)
+                    (Ismael Saibari 2')
+  20:30 UTC-4        Brazil    3-0 (3-0) Haiti      @ Philadelphia
+                    (Matheus Cunha 23', 36' Vinícius Júnior 45+3')
 Wed June 24
   18:00 UTC-4         Scotland   v Brazil   @ Miami (Miami Gardens)
   18:00 UTC-4         Morocco   v Haiti    @ Atlanta
@@ -133,8 +135,10 @@ Sat June 13
   21:00 UTC-7    Australia       2-0 (1-0) Turkey   @ Vancouver
                     (Nestory Irankunda 27' Connor Metcalfe 75')
 Fri June 19
-  12:00 UTC-7    USA      v Australia   @ Seattle
-  20:00 UTC-7    Turkey   v Paraguay   @ San Francisco Bay Area (Santa Clara)
+  12:00 UTC-7    USA      2-0 (2-0) Australia   @ Seattle
+                    (Cameron Burgess 11'(OG) Alex Freeman 43')
+  20:00 UTC-7    Turkey   0-1 (0-1) Paraguay   @ San Francisco Bay Area (Santa Clara)
+                    (Matías Galarza 2')
 Thu June 25
   19:00 UTC-7    Turkey         v USA   @ Los Angeles (Inglewood)
   19:00 UTC-7    Paraguay      v Australia     @ San Francisco Bay Area (Santa Clara)
