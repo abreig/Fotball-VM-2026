@@ -98,7 +98,7 @@ Fri June 12
                     (Cyle Larin 78'; Jovo Lukić 21')
 Sat June 13
   12:00 UTC-7     Qatar    1-1 (0-1) Switzerland        @ San Francisco Bay Area (Santa Clara)
-                    (Boualem Khoukhi 90+4'; Breel Embolo 17'(p))
+                    (Miro Muheim 90+4' (OG); Breel Embolo 17'(p))
 Thu June 18
   12:00 UTC-7     Switzerland  4-1 (0-0) Bosnia & Herzegovina   @ Los Angeles (Inglewood)
                     (Johan Manzambi 74' Rubén Vargas 84' Johan Manzambi 90' Granit Xhaka 90+7' (pen.);
@@ -153,8 +153,10 @@ Sun June 14
   19:00 UTC-4    Ivory Coast  1-0 (0-0) Ecuador     @ Philadelphia
                     (Amad Diallo 90')
 Sat June 20
-  16:00 UTC-4    Germany  v Ivory Coast    @ Toronto
-  19:00 UTC-5    Ecuador  v Curaçao        @ Kansas City
+  16:00 UTC-4    Germany  2-1 (0-1) Ivory Coast    @ Toronto
+                    (Deniz Undav 68', 90+4';
+                       Franck Kessié 30')
+  19:00 UTC-5    Ecuador  0-0 (0-0) Curaçao        @ Kansas City
 Thu June 25
   16:00 UTC-4    Curaçao  v Ivory Coast     @ Philadelphia
   16:00 UTC-4    Ecuador  v Germany         @ New York/New Jersey (East Rutherford)
@@ -169,8 +171,11 @@ Sun June 14
                     (Yasin Ayari 7' Alexander Isak 30' Viktor Gyökeres 59' Mattias Svanberg 84' Yasin Ayari 90+6';
                        Omar Rekik 43')
 Sat June 20
-  12:00 UTC-5    Netherlands  v Sweden         @ Houston
-  22:00 UTC-6    Tunisia      v Japan              @ Monterrey (Guadalupe)
+  12:00 UTC-5    Netherlands  5-1 (2-0) Sweden         @ Houston
+                    (Brian Brobbey 5', 17' Cody Gakpo 47', 54' Crysencio Summerville 89';
+                       Anthony Elanga 59')
+  22:00 UTC-6    Tunisia      0-4 (0-2) Japan              @ Monterrey (Guadalupe)
+                    (Daichi Kamada 4' Ayase Ueda 31' Junya Ito 69' Ayase Ueda 83')
 Thu June 25
   18:00 UTC-5    Japan        v Sweden             @ Dallas (Arlington)
   18:00 UTC-5   Tunisia      v Netherlands         @ Kansas City
