@@ -274,8 +274,12 @@ Mon June 22
                     (Nizar Al-Rashdan 36';
                        Nadhir Benbouali 69' Amine Gouiri 82')
 Sat June 27
-  21:00 UTC-5    Algeria  v Austria   @ Kansas City
-  21:00 UTC-5    Jordan  v Argentina @ Dallas (Arlington)
+  21:00 UTC-5    Algeria  3-3 (1-1) Austria   @ Kansas City
+                    (Rafik Belghali 45' Riyad Mahrez 60', 90+3';
+                       Marko Arnautovic 28' Marcel Sabitzer 55' Sasa Kalajdzic 90+6')
+  21:00 UTC-5    Jordan  1-3 (0-2) Argentina @ Dallas (Arlington)
+                    (Mousa Al-Tamari 55';
+                       Giovani Lo Celso 19' Lautaro Martínez 31' (pen.) Lionel Messi 80')
 
 
 ▪ Group K
@@ -293,8 +297,10 @@ Tue June 23
   20:00 UTC-6    Colombia   1-0 (0-0) DR Congo          @ Guadalajara (Zapopan)
                     (Daniel Muñoz 76')
 Sat June 27
-  19:30 UTC-4   Colombia   v Portugal            @ Miami (Miami Gardens)
-  19:30 UTC-4   DR Congo   v Uzbekistan   @ Atlanta
+  19:30 UTC-4   Colombia   0-0 (0-0) Portugal            @ Miami (Miami Gardens)
+  19:30 UTC-4   DR Congo   3-1 (0-1) Uzbekistan   @ Atlanta
+                    (Yoane Wissa 68' (pen.) Fiston Mayele 78' Yoane Wissa 90+1';
+                       Eldor Shomurodov 10')
 
 
 ▪ Group L
@@ -309,5 +315,8 @@ Tue June 23
   19:00 UTC-4   Panama    0-1 (0-0) Croatia   @ Toronto
                     (Ante Budimir 54')
 Sat June 27
-  17:00 UTC-4    Panama  v England   @ New York/New Jersey (East Rutherford)
-  17:00 UTC-4    Croatia  v Ghana     @ Philadelphia
+  17:00 UTC-4    Panama  0-2 (0-0) England   @ New York/New Jersey (East Rutherford)
+                    (Jude Bellingham 62' Harry Kane 67')
+  17:00 UTC-4    Croatia  2-1 (1-0) Ghana     @ Philadelphia
+                    (Petar Sucic 31' Nikola Vlasic 83';
+                       Derrick Luckassen 73')
