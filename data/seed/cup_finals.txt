@@ -24,9 +24,13 @@ Mon Jun 29
                     (Casemiro 56' Gabriel Martinelli 90+5';
                        Kaishu Sano 29')
 Tue Jun 30 
-  (77) 17:00 UTC-4  France v Sweden   @ New York/New Jersey (East Rutherford)   ## 1I / 3C/D/F/G/H
-  (78) 12:00 UTC-5  Ivory Coast v Norway   @ Dallas (Arlington)   ## 2E / 2I
-  (79) 19:00 UTC-6  Mexico v Ecuador   @ Mexico City              ## 1A / 3C/E/F/H/I
+  (77) 17:00 UTC-4  France 3-0 (1-0) Sweden   @ New York/New Jersey (East Rutherford)   ## 1I / 3C/D/F/G/H
+                    (Kylian Mbappé 45' Bradley Barcola 53' Kylian Mbappé 74')
+  (78) 12:00 UTC-5  Ivory Coast 1-2 (0-1) Norway   @ Dallas (Arlington)   ## 2E / 2I
+                    (Amad Diallo 74';
+                       Antonio Nusa 39' Erling Haaland 86')
+  (79) 19:00 UTC-6  Mexico 2-0 (1-0) Ecuador   @ Mexico City              ## 1A / 3C/E/F/H/I
+                    (Julián Quiñones 31' Raúl Jiménez 45+1')
 Wed Jul 1 
   (80) 12:00 UTC-4  England v DR Congo   @ Atlanta   ## 1L / 3E/H/I/J/K
   (81) 17:00 UTC-7  USA v Bosnia & Herzegovina   @ San Francisco Bay Area (Santa Clara)       ## 1D / 3B/E/F/I/J
@@ -43,10 +47,10 @@ Fri Jul 3
 
 ▪ Round of 16 
 Sat Jul 4 
-  (89) 17:00 UTC-4  W74 v W77   @ Philadelphia 
-  (90) 12:00 UTC-5  Canada v W75   @ Houston   ## W73
+  (89) 17:00 UTC-4  Paraguay v France   @ Philadelphia   ## W74 / W77
+  (90) 12:00 UTC-5  Canada v Morocco   @ Houston   ## W73 / W75
 Sun Jul 5 
-  (91) 16:00 UTC-4  W76 v W78   @ New York/New Jersey (East Rutherford) 
+  (91) 16:00 UTC-4  Brazil v Norway   @ New York/New Jersey (East Rutherford)   ## W76 / W78
   (92) 18:00 UTC-6  W79 v W80   @ Mexico City
 Mon Jul 6 
   (93) 14:00 UTC-5  W83 v W84   @ Dallas (Arlington) 
