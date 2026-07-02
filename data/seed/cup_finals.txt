@@ -32,9 +32,14 @@ Tue Jun 30
   (79) 19:00 UTC-6  Mexico 2-0 (1-0) Ecuador   @ Mexico City              ## 1A / 3C/E/F/H/I
                     (Julián Quiñones 31' Raúl Jiménez 45+1')
 Wed Jul 1 
-  (80) 12:00 UTC-4  England v DR Congo   @ Atlanta   ## 1L / 3E/H/I/J/K
-  (81) 17:00 UTC-7  USA v Bosnia & Herzegovina   @ San Francisco Bay Area (Santa Clara)       ## 1D / 3B/E/F/I/J
-  (82) 13:00 UTC-7  Belgium v Senegal   @ Seattle   ## 1G / 3A/E/H/I/J
+  (80) 12:00 UTC-4  England 2-1 (0-1) DR Congo   @ Atlanta   ## 1L / 3E/H/I/J/K
+                    (Harry Kane 75', 86';
+                       Brian Cipenga 7')
+  (81) 17:00 UTC-7  USA 2-0 (1-0) Bosnia & Herzegovina   @ San Francisco Bay Area (Santa Clara)       ## 1D / 3B/E/F/I/J
+                    (Folarin Balogun 45' Malik Tillman 82')
+  (82) 13:00 UTC-7  Belgium 3-2 a.e.t. (2-2, 0-1) Senegal   @ Seattle   ## 1G / 3A/E/H/I/J
+                    (Romelu Lukaku 86' Youri Tielemans 89', 120+5' (pen.);
+                       Habib Diarra 25' Ismaïla Sarr 51')
 Thu Jul 2 
   (83) 19:00 UTC-4  Portugal v Croatia   @ Toronto   ## 2K / 2L
   (84) 12:00 UTC-7  Spain v Austria   @ Los Angeles (Inglewood)   ## 1H / 2J
@@ -51,10 +56,10 @@ Sat Jul 4
   (90) 12:00 UTC-5  Canada v Morocco   @ Houston   ## W73 / W75
 Sun Jul 5 
   (91) 16:00 UTC-4  Brazil v Norway   @ New York/New Jersey (East Rutherford)   ## W76 / W78
-  (92) 18:00 UTC-6  W79 v W80   @ Mexico City
+  (92) 18:00 UTC-6  Mexico v England   @ Mexico City   ## W79 / W80
 Mon Jul 6 
   (93) 14:00 UTC-5  W83 v W84   @ Dallas (Arlington) 
-  (94) 17:00 UTC-7  W81 v W82   @ Seattle 
+  (94) 17:00 UTC-7  USA v Belgium   @ Seattle   ## W81 / W82
 Tue Jul 7 
   (95) 12:00 UTC-4  W86 v W88   @ Atlanta
   (96) 13:00 UTC-7  W85 v W87   @ Vancouver
