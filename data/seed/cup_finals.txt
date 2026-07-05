@@ -44,19 +44,20 @@ Thu Jul 2
                       (Breel Embolo 10' Dan Ndoye 46')
 Fri Jul 3 
   (86) 18:00 UTC-4  Argentina 3-2 a.e.t. (1-1, 1-0) Cape Verde   @ Miami (Miami Gardens)   ## 1J / 2H
-                    (Lionel Messi 29' Lisandro Martínez 92' Diney Borges 111'(OG);
+                      (Lionel Messi 29' Lisandro Martínez 92' Diney Borges 111'(og);
                        Deroy Duarte 59' Sidny Lopes Cabral 103')
   (87) 20:30 UTC-5  Colombia 1-0 (1-0) Ghana   @ Kansas City   ## 1K / 3D/E/I/J/L
-                    (Jhon Arias 14')
+                      (Jhon Arias 14')
   (88) 13:00 UTC-5  Australia 1-1 a.e.t. (1-1, 0-1), 2-4 pen. Egypt   @ Dallas (Arlington)   ## 2D / 2G
-                    (Mohamed Hany 55'(OG);
-                       Emam Ashour 13')
+                      (Mohamed Hany 55'(og); Emam Ashour 13')
 
 
 ▪ Round of 16 
 Sat Jul 4 
-  (89) 17:00 UTC-4  Paraguay v France     @ Philadelphia   ## W74 / W77
-  (90) 12:00 UTC-5  Canada   v Morocco    @ Houston   ## W73 / W75
+  (89) 17:00 UTC-4  Paraguay 0-1 (0-0) France     @ Philadelphia   ## W74 / W77
+                    (Kylian Mbappé 70' (pen.))
+  (90) 12:00 UTC-5  Canada   0-3 (0-0) Morocco    @ Houston   ## W73 / W75
+                    (Azzedine Ounahi 50', 82' Soufiane Rahimi 90+8')
 Sun Jul 5 
   (91) 16:00 UTC-4  Brazil   v Norway     @ New York/New Jersey (East Rutherford)   ## W76 / W78
   (92) 18:00 UTC-6  Mexico   v England    @ Mexico City   ## W79 / W80
@@ -64,8 +65,8 @@ Mon Jul 6
   (93) 14:00 UTC-5  Portugal v Spain      @ Dallas (Arlington)   ## W83 / W84 
   (94) 17:00 UTC-7  USA      v Belgium    @ Seattle   ## W81 / W82
 Tue Jul 7 
-  (95) 12:00 UTC-4  W86 v W88   @ Atlanta
-  (96) 13:00 UTC-7  Switzerland v W87   @ Vancouver   ## W85
+  (95) 12:00 UTC-4  Argentina   v Egypt      @ Atlanta     ## W86 / W88
+  (96) 13:00 UTC-7  Switzerland v Colombia   @ Vancouver   ## W85 / W87
 
 
 ▪ Quarter-final 
