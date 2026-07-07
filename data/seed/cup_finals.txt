@@ -66,8 +66,11 @@ Sun Jul 5
                     (Julián Quiñones 42' Raúl Jiménez 69' (pen.);
                        Jude Bellingham 36', 38' Harry Kane 60' (pen.))
 Mon Jul 6 
-  (93) 14:00 UTC-5  Portugal v Spain      @ Dallas (Arlington)   ## W83 / W84 
-  (94) 17:00 UTC-7  USA      v Belgium    @ Seattle   ## W81 / W82
+  (93) 14:00 UTC-5  Portugal 0-1 (0-0) Spain      @ Dallas (Arlington)   ## W83 / W84 
+                    (Mikel Merino 90+1')
+  (94) 17:00 UTC-7  USA      1-4 (1-2) Belgium    @ Seattle   ## W81 / W82
+                    (Malik Tillman 31';
+                       Charles De Ketelaere 9', 33' Hans Vanaken 57' Romelu Lukaku 90+3')
 Tue Jul 7 
   (95) 12:00 UTC-4  Argentina   v Egypt      @ Atlanta     ## W86 / W88
   (96) 13:00 UTC-7  Switzerland v Colombia   @ Vancouver   ## W85 / W87
@@ -79,7 +82,7 @@ Thu Jul 9
 Fri Jul 10 
   (98) 12:00 UTC-7  W93 v W94   @ Los Angeles (Inglewood)
 Sat Jul 11 
-  (99) 17:00 UTC-4  W91 v W92   @ Miami (Miami Gardens) 
+  (99) 17:00 UTC-4  Norway v England   @ Miami (Miami Gardens)    ## W91 / W92 
  (100) 20:00 UTC-5  W95 v W96   @ Kansas City
 
 

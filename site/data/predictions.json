@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T09:14:59Z",
+ "generated_at": "2026-07-07T08:47:41Z",
  "tournament": "FIFA Fotball-VM 2026",
  "n_simulations": 10000,
  "model": {
@@ -172,10 +172,10 @@
    "p_group_winner": 1.0,
    "p_r32": 1.0,
    "p_r16": 1.0,
-   "p_qf": 0.4114,
-   "p_sf": 0.1233,
-   "p_final": 0.0489,
-   "p_champion": 0.017,
+   "p_qf": 0.4153,
+   "p_sf": 0.1255,
+   "p_final": 0.0498,
+   "p_champion": 0.0137,
    "elo": 2034
   },
   "Brazil": {
@@ -187,7 +187,7 @@
    "p_sf": 0.0,
    "p_final": 0.0,
    "p_champion": 0.0,
-   "elo": 2057
+   "elo": 2077
   },
   "Morocco": {
    "group": "C",
@@ -195,9 +195,9 @@
    "p_r32": 1.0,
    "p_r16": 1.0,
    "p_qf": 1.0,
-   "p_sf": 0.2968,
-   "p_final": 0.1203,
-   "p_champion": 0.041,
+   "p_sf": 0.2915,
+   "p_final": 0.0925,
+   "p_champion": 0.0336,
    "elo": 2056
   },
   "Haiti": {
@@ -227,11 +227,11 @@
    "p_group_winner": 1.0,
    "p_r32": 1.0,
    "p_r16": 1.0,
-   "p_qf": 0.4759,
-   "p_sf": 0.1103,
-   "p_final": 0.0258,
-   "p_champion": 0.0055,
-   "elo": 1866
+   "p_qf": 0.0,
+   "p_sf": 0.0,
+   "p_final": 0.0,
+   "p_champion": 0.0,
+   "elo": 1831
   },
   "Paraguay": {
    "group": "D",
@@ -359,20 +359,20 @@
    "p_group_winner": 1.0,
    "p_r32": 1.0,
    "p_r16": 1.0,
-   "p_qf": 0.5241,
-   "p_sf": 0.131,
-   "p_final": 0.0341,
-   "p_champion": 0.0078,
-   "elo": 1988
+   "p_qf": 1.0,
+   "p_sf": 0.2221,
+   "p_final": 0.072,
+   "p_champion": 0.0232,
+   "elo": 2023
   },
   "Egypt": {
    "group": "G",
    "p_group_winner": 0.0,
    "p_r32": 1.0,
    "p_r16": 1.0,
-   "p_qf": 0.1104,
-   "p_sf": 0.0269,
-   "p_final": 0.006,
+   "p_qf": 0.1107,
+   "p_sf": 0.0264,
+   "p_final": 0.0051,
    "p_champion": 0.0007,
    "elo": 1865
   },
@@ -403,11 +403,11 @@
    "p_group_winner": 1.0,
    "p_r32": 1.0,
    "p_r16": 1.0,
-   "p_qf": 0.6931,
-   "p_sf": 0.5612,
-   "p_final": 0.326,
-   "p_champion": 0.1931,
-   "elo": 2224
+   "p_qf": 1.0,
+   "p_sf": 0.7779,
+   "p_final": 0.4729,
+   "p_champion": 0.2954,
+   "elo": 2242
   },
   "Cape Verde": {
    "group": "H",
@@ -448,9 +448,9 @@
    "p_r32": 1.0,
    "p_r16": 1.0,
    "p_qf": 1.0,
-   "p_sf": 0.7032,
-   "p_final": 0.4193,
-   "p_champion": 0.2356,
+   "p_sf": 0.7085,
+   "p_final": 0.3626,
+   "p_champion": 0.2063,
    "elo": 2207
   },
   "Senegal": {
@@ -481,20 +481,20 @@
    "p_r32": 1.0,
    "p_r16": 1.0,
    "p_qf": 1.0,
-   "p_sf": 0.374,
-   "p_final": 0.1341,
-   "p_champion": 0.0491,
-   "elo": 2062
+   "p_sf": 0.3571,
+   "p_final": 0.1159,
+   "p_champion": 0.0343,
+   "elo": 2042
   },
   "Argentina": {
    "group": "J",
    "p_group_winner": 1.0,
    "p_r32": 1.0,
    "p_r16": 1.0,
-   "p_qf": 0.8896,
-   "p_sf": 0.6346,
-   "p_final": 0.4153,
-   "p_champion": 0.2406,
+   "p_qf": 0.8893,
+   "p_sf": 0.6414,
+   "p_final": 0.4233,
+   "p_champion": 0.2252,
    "elo": 2228
   },
   "Algeria": {
@@ -535,11 +535,11 @@
    "p_group_winner": 0.0,
    "p_r32": 1.0,
    "p_r16": 1.0,
-   "p_qf": 0.3069,
-   "p_sf": 0.1975,
-   "p_final": 0.0745,
-   "p_champion": 0.0282,
-   "elo": 2078
+   "p_qf": 0.0,
+   "p_sf": 0.0,
+   "p_final": 0.0,
+   "p_champion": 0.0,
+   "elo": 2060
   },
   "DR Congo": {
    "group": "K",
@@ -568,10 +568,10 @@
    "p_group_winner": 1.0,
    "p_r32": 1.0,
    "p_r16": 1.0,
-   "p_qf": 0.5886,
-   "p_sf": 0.2152,
+   "p_qf": 0.5847,
+   "p_sf": 0.2067,
    "p_final": 0.1001,
-   "p_champion": 0.0419,
+   "p_champion": 0.0354,
    "elo": 2093
   },
   "England": {
@@ -580,9 +580,9 @@
    "p_r32": 1.0,
    "p_r16": 1.0,
    "p_qf": 1.0,
-   "p_sf": 0.626,
-   "p_final": 0.2956,
-   "p_champion": 0.1395,
+   "p_sf": 0.6429,
+   "p_final": 0.3058,
+   "p_champion": 0.1322,
    "elo": 2150
   },
   "Croatia": {
@@ -641,7 +641,7 @@
     "p_home": 0.824,
     "p_draw": 0.128,
     "p_away": 0.048,
-    "xg_home": 2.63,
+    "xg_home": 2.64,
     "xg_away": 0.51,
     "top_scores": [
      [
@@ -696,7 +696,7 @@
    "pred": {
     "p_home": 0.4721,
     "p_draw": 0.2801,
-    "p_away": 0.2478,
+    "p_away": 0.2479,
     "xg_home": 1.41,
     "xg_away": 0.95,
     "top_scores": [
@@ -727,7 +727,7 @@
     "blended": {
      "p_home": 0.4721,
      "p_draw": 0.2801,
-     "p_away": 0.2478,
+     "p_away": 0.2479,
      "source": "modell"
     }
    }
@@ -758,7 +758,7 @@
     "top_scores": [
      [
       "1-0",
-      0.137
+      0.1369
      ],
      [
       "2-0",
@@ -766,7 +766,7 @@
      ],
      [
       "1-1",
-      0.1061
+      0.106
      ],
      [
       "2-1",
@@ -806,40 +806,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.4251,
-    "p_draw": 0.2882,
-    "p_away": 0.2867,
-    "xg_home": 1.31,
-    "xg_away": 1.02,
+    "p_home": 0.3863,
+    "p_draw": 0.2921,
+    "p_away": 0.3216,
+    "xg_home": 1.22,
+    "xg_away": 1.09,
     "top_scores": [
      [
       "1-1",
-      0.1353
+      0.1371
      ],
      [
       "1-0",
-      0.1218
+      0.1153
      ],
      [
       "0-0",
-      0.1023
+      0.1037
      ],
      [
       "0-1",
-      0.0943
+      0.1024
      ],
      [
       "2-1",
-      0.085
+      0.0807
      ]
     ],
-    "elo_home": 1866,
+    "elo_home": 1831,
     "elo_away": 1901,
     "market": null,
     "blended": {
-     "p_home": 0.4251,
-     "p_draw": 0.2882,
-     "p_away": 0.2867,
+     "p_home": 0.3863,
+     "p_draw": 0.2921,
+     "p_away": 0.3216,
      "source": "modell"
     }
    }
@@ -918,40 +918,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.3547,
-    "p_draw": 0.2932,
-    "p_away": 0.352,
-    "xg_home": 1.16,
-    "xg_away": 1.15,
+    "p_home": 0.3761,
+    "p_draw": 0.2927,
+    "p_away": 0.3312,
+    "xg_home": 1.2,
+    "xg_away": 1.11,
     "top_scores": [
      [
       "1-1",
-      0.1376
+      0.1374
      ],
      [
       "1-0",
-      0.1093
+      0.1135
      ],
      [
       "0-1",
-      0.1088
+      0.1045
      ],
      [
       "0-0",
-      0.1041
+      0.1039
      ],
      [
       "2-1",
-      0.0768
+      0.0795
      ]
     ],
-    "elo_home": 2057,
+    "elo_home": 2077,
     "elo_away": 2056,
     "market": null,
     "blended": {
-     "p_home": 0.3547,
-     "p_draw": 0.2932,
-     "p_away": 0.352,
+     "p_home": 0.3761,
+     "p_draw": 0.2927,
+     "p_away": 0.3312,
      "source": "modell"
     }
    }
@@ -1046,7 +1046,7 @@
      ],
      [
       "0-0",
-      0.1034
+      0.1033
      ],
      [
       "1-0",
@@ -1255,7 +1255,7 @@
    "aet": false,
    "pred": {
     "p_home": 0.5091,
-    "p_draw": 0.2713,
+    "p_draw": 0.2712,
     "p_away": 0.2197,
     "xg_home": 1.5,
     "xg_away": 0.89,
@@ -1278,7 +1278,7 @@
      ],
      [
       "2-1",
-      0.0917
+      0.0918
      ]
     ],
     "elo_home": 1799,
@@ -1286,7 +1286,7 @@
     "market": null,
     "blended": {
      "p_home": 0.5091,
-     "p_draw": 0.2713,
+     "p_draw": 0.2712,
      "p_away": 0.2197,
      "source": "modell"
     }
@@ -1310,40 +1310,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.8869,
-    "p_draw": 0.0867,
-    "p_away": 0.0264,
-    "xg_home": 3.1,
-    "xg_away": 0.43,
+    "p_home": 0.8979,
+    "p_draw": 0.0791,
+    "p_away": 0.023,
+    "xg_home": 3.21,
+    "xg_away": 0.42,
     "top_scores": [
      [
       "3-0",
-      0.1453
+      0.1466
      ],
      [
       "2-0",
-      0.1405
+      0.1371
      ],
      [
       "4-0",
-      0.1126
+      0.1176
      ],
      [
       "1-0",
-      0.0891
+      0.0841
      ],
      [
       "5-0",
-      0.0699
+      0.0755
      ]
     ],
-    "elo_home": 2224,
+    "elo_home": 2242,
     "elo_away": 1699,
     "market": null,
     "blended": {
-     "p_home": 0.8869,
-     "p_draw": 0.0867,
-     "p_away": 0.0264,
+     "p_home": 0.8979,
+     "p_draw": 0.0791,
+     "p_away": 0.023,
      "source": "modell"
     }
    }
@@ -1366,40 +1366,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.4925,
-    "p_draw": 0.2754,
-    "p_away": 0.232,
-    "xg_home": 1.46,
-    "xg_away": 0.92,
+    "p_home": 0.5329,
+    "p_draw": 0.2645,
+    "p_away": 0.2026,
+    "xg_home": 1.56,
+    "xg_away": 0.86,
     "top_scores": [
      [
       "1-0",
-      0.1305
+      0.1341
      ],
      [
       "1-1",
-      0.1293
+      0.1242
      ],
      [
       "2-0",
-      0.0989
+      0.1082
      ],
      [
       "0-0",
-      0.0978
+      0.0939
      ],
      [
       "2-1",
-      0.0907
+      0.093
      ]
     ],
-    "elo_home": 1988,
+    "elo_home": 2023,
     "elo_away": 1865,
     "market": null,
     "blended": {
-     "p_home": 0.4925,
-     "p_draw": 0.2754,
-     "p_away": 0.232,
+     "p_home": 0.5329,
+     "p_draw": 0.2645,
+     "p_away": 0.2026,
      "source": "modell"
     }
    }
@@ -1446,7 +1446,7 @@
      ],
      [
       "0-0",
-      0.0855
+      0.0854
      ]
     ],
     "elo_home": 1706,
@@ -1590,40 +1590,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.0658,
-    "p_draw": 0.155,
-    "p_away": 0.7792,
-    "xg_home": 0.56,
-    "xg_away": 2.39,
+    "p_home": 0.0738,
+    "p_draw": 0.1655,
+    "p_away": 0.7607,
+    "xg_home": 0.58,
+    "xg_away": 2.31,
     "top_scores": [
      [
       "0-2",
-      0.1495
+      0.1482
      ],
      [
       "0-1",
-      0.1222
+      0.1256
      ],
      [
       "0-3",
-      0.1192
+      0.1139
      ],
      [
       "1-2",
-      0.0837
+      0.0861
      ],
      [
       "1-1",
-      0.0727
+      0.0777
      ]
     ],
     "elo_home": 1675,
-    "elo_away": 2062,
+    "elo_away": 2042,
     "market": null,
     "blended": {
-     "p_home": 0.0658,
-     "p_draw": 0.155,
-     "p_away": 0.7792,
+     "p_home": 0.0738,
+     "p_draw": 0.1655,
+     "p_away": 0.7607,
      "source": "modell"
     }
    }
@@ -1702,7 +1702,7 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.545,
+    "p_home": 0.5451,
     "p_draw": 0.2608,
     "p_away": 0.1941,
     "xg_home": 1.59,
@@ -1733,7 +1733,7 @@
     "elo_away": 1720,
     "market": null,
     "blended": {
-     "p_home": 0.545,
+     "p_home": 0.5451,
      "p_draw": 0.2608,
      "p_away": 0.1941,
      "source": "modell"
@@ -1758,40 +1758,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.658,
-    "p_draw": 0.2175,
-    "p_away": 0.1246,
-    "xg_home": 1.91,
-    "xg_away": 0.7,
+    "p_home": 0.6379,
+    "p_draw": 0.2262,
+    "p_away": 0.1358,
+    "xg_home": 1.85,
+    "xg_away": 0.72,
     "top_scores": [
      [
       "1-0",
-      0.1363
+      0.137
      ],
      [
       "2-0",
-      0.1342
+      0.1305
      ],
      [
       "1-1",
-      0.1021
+      0.1062
      ],
      [
       "2-1",
-      0.0939
+      0.0944
      ],
      [
       "3-0",
-      0.0856
+      0.0804
      ]
     ],
-    "elo_home": 2078,
+    "elo_home": 2060,
     "elo_away": 1810,
     "market": null,
     "blended": {
-     "p_home": 0.658,
-     "p_draw": 0.2175,
-     "p_away": 0.1246,
+     "p_home": 0.6379,
+     "p_draw": 0.2262,
+     "p_away": 0.1358,
      "source": "modell"
     }
    }
@@ -2206,40 +2206,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.417,
-    "p_draw": 0.2893,
-    "p_away": 0.2937,
-    "xg_home": 1.29,
-    "xg_away": 1.04,
+    "p_home": 0.3784,
+    "p_draw": 0.2926,
+    "p_away": 0.329,
+    "xg_home": 1.21,
+    "xg_away": 1.11,
     "top_scores": [
      [
       "1-1",
-      0.1358
+      0.1373
      ],
      [
       "1-0",
-      0.1205
-     ],
-     [
-      "0-0",
-      0.1027
+      0.1139
      ],
      [
       "0-1",
-      0.096
+      0.104
+     ],
+     [
+      "0-0",
+      0.1039
      ],
      [
       "2-1",
-      0.0842
+      0.0798
      ]
     ],
-    "elo_home": 1866,
+    "elo_home": 1831,
     "elo_away": 1908,
     "market": null,
     "blended": {
-     "p_home": 0.417,
-     "p_draw": 0.2893,
-     "p_away": 0.2937,
+     "p_home": 0.3784,
+     "p_draw": 0.2926,
+     "p_away": 0.329,
      "source": "modell"
     }
    }
@@ -2318,40 +2318,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.7828,
-    "p_draw": 0.1529,
-    "p_away": 0.0643,
-    "xg_home": 2.41,
-    "xg_away": 0.56,
+    "p_home": 0.8004,
+    "p_draw": 0.1425,
+    "p_away": 0.0571,
+    "xg_home": 2.5,
+    "xg_away": 0.54,
     "top_scores": [
      [
       "2-0",
-      0.1496
-     ],
-     [
-      "1-0",
-      0.1214
+      0.1501
      ],
      [
       "3-0",
-      0.1202
+      0.1252
+     ],
+     [
+      "1-0",
+      0.1175
      ],
      [
       "2-1",
-      0.0832
+      0.0804
      ],
      [
       "4-0",
-      0.0724
+      0.0783
      ]
     ],
-    "elo_home": 2057,
+    "elo_home": 2077,
     "elo_away": 1666,
     "market": null,
     "blended": {
-     "p_home": 0.7828,
-     "p_draw": 0.1529,
-     "p_away": 0.0643,
+     "p_home": 0.8004,
+     "p_draw": 0.1425,
+     "p_away": 0.0571,
      "source": "modell"
     }
    }
@@ -2654,40 +2654,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.8823,
-    "p_draw": 0.0899,
-    "p_away": 0.0278,
-    "xg_home": 3.06,
-    "xg_away": 0.44,
+    "p_home": 0.8936,
+    "p_draw": 0.0821,
+    "p_away": 0.0243,
+    "xg_home": 3.17,
+    "xg_away": 0.42,
     "top_scores": [
      [
       "3-0",
-      0.1446
+      0.1462
      ],
      [
       "2-0",
-      0.1418
+      0.1385
      ],
      [
       "4-0",
-      0.1106
+      0.1157
      ],
      [
       "1-0",
-      0.0911
+      0.0861
      ],
      [
       "5-0",
-      0.0677
+      0.0732
      ]
     ],
-    "elo_home": 2224,
+    "elo_home": 2242,
     "elo_away": 1706,
     "market": null,
     "blended": {
-     "p_home": 0.8823,
-     "p_draw": 0.0899,
-     "p_away": 0.0278,
+     "p_home": 0.8936,
+     "p_draw": 0.0821,
+     "p_away": 0.0243,
      "source": "modell"
     }
    }
@@ -2710,40 +2710,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.4675,
-    "p_draw": 0.281,
-    "p_away": 0.2515,
-    "xg_home": 1.4,
-    "xg_away": 0.96,
+    "p_home": 0.5077,
+    "p_draw": 0.2716,
+    "p_away": 0.2207,
+    "xg_home": 1.5,
+    "xg_away": 0.9,
     "top_scores": [
      [
-      "1-1",
-      0.1319
-     ],
-     [
       "1-0",
-      0.1276
+      0.132
      ],
      [
-      "0-0",
-      0.0998
+      "1-1",
+      0.1275
      ],
      [
       "2-0",
-      0.093
+      0.1024
+     ],
+     [
+      "0-0",
+      0.0964
      ],
      [
       "2-1",
-      0.0889
+      0.0917
      ]
     ],
-    "elo_home": 1988,
+    "elo_home": 2023,
     "elo_away": 1886,
     "market": null,
     "blended": {
-     "p_home": 0.4675,
-     "p_draw": 0.281,
-     "p_away": 0.2515,
+     "p_home": 0.5077,
+     "p_draw": 0.2716,
+     "p_away": 0.2207,
      "source": "modell"
     }
    }
@@ -2767,7 +2767,7 @@
    "aet": false,
    "pred": {
     "p_home": 0.6107,
-    "p_draw": 0.2375,
+    "p_draw": 0.2374,
     "p_away": 0.1518,
     "xg_home": 1.77,
     "xg_away": 0.76,
@@ -2782,7 +2782,7 @@
      ],
      [
       "1-1",
-      0.1115
+      0.1114
      ],
      [
       "2-1",
@@ -2798,7 +2798,7 @@
     "market": null,
     "blended": {
      "p_home": 0.6107,
-     "p_draw": 0.2375,
+     "p_draw": 0.2374,
      "p_away": 0.1518,
      "source": "modell"
     }
@@ -2846,7 +2846,7 @@
      ],
      [
       "0-0",
-      0.0914
+      0.0913
      ]
     ],
     "elo_home": 1686,
@@ -2990,40 +2990,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.5597,
-    "p_draw": 0.2561,
-    "p_away": 0.1842,
-    "xg_home": 1.63,
-    "xg_away": 0.82,
+    "p_home": 0.5368,
+    "p_draw": 0.2634,
+    "p_away": 0.1998,
+    "xg_home": 1.57,
+    "xg_away": 0.85,
     "top_scores": [
      [
       "1-0",
-      0.1358
+      0.1344
      ],
      [
       "1-1",
-      0.1202
+      0.1236
      ],
      [
       "2-0",
-      0.1142
-     ],
-     [
-      "2-1",
-      0.094
+      0.109
      ],
      [
       "0-0",
-      0.0909
+      0.0935
+     ],
+     [
+      "2-1",
+      0.0932
      ]
     ],
-    "elo_home": 2062,
+    "elo_home": 2042,
     "elo_away": 1880,
     "market": null,
     "blended": {
-     "p_home": 0.5597,
-     "p_draw": 0.2561,
-     "p_away": 0.1842,
+     "p_home": 0.5368,
+     "p_draw": 0.2634,
+     "p_away": 0.1998,
      "source": "modell"
     }
    }
@@ -3049,7 +3049,7 @@
     "p_home": 0.2205,
     "p_draw": 0.2715,
     "p_away": 0.508,
-    "xg_home": 0.89,
+    "xg_home": 0.9,
     "xg_away": 1.5,
     "top_scores": [
      [
@@ -3102,40 +3102,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.7405,
-    "p_draw": 0.1766,
-    "p_away": 0.0829,
-    "xg_home": 2.22,
-    "xg_away": 0.6,
+    "p_home": 0.7223,
+    "p_draw": 0.1862,
+    "p_away": 0.0915,
+    "xg_home": 2.14,
+    "xg_away": 0.62,
     "top_scores": [
      [
       "2-0",
-      0.1464
+      0.1442
      ],
      [
       "1-0",
-      0.1288
+      0.1312
      ],
      [
       "3-0",
-      0.1082
+      0.1031
      ],
      [
       "2-1",
-      0.0884
+      0.0901
      ],
      [
       "1-1",
-      0.0829
+      0.0874
      ]
     ],
-    "elo_home": 2078,
+    "elo_home": 2060,
     "elo_away": 1731,
     "market": null,
     "blended": {
-     "p_home": 0.7405,
-     "p_draw": 0.1766,
-     "p_away": 0.0829,
+     "p_home": 0.7223,
+     "p_draw": 0.1862,
+     "p_away": 0.0915,
      "source": "modell"
     }
    }
@@ -3438,40 +3438,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.1452,
-    "p_draw": 0.233,
-    "p_away": 0.6218,
-    "xg_home": 0.74,
-    "xg_away": 1.8,
+    "p_home": 0.1324,
+    "p_draw": 0.2236,
+    "p_away": 0.644,
+    "xg_home": 0.72,
+    "xg_away": 1.87,
     "top_scores": [
      [
       "0-1",
-      0.1372
+      0.1368
      ],
      [
       "0-2",
-      0.1273
+      0.1316
      ],
      [
       "1-1",
-      0.1094
+      0.105
      ],
      [
       "1-2",
-      0.0947
+      0.0943
      ],
      [
-      "0-0",
-      0.0827
+      "0-3",
+      0.082
      ]
     ],
     "elo_home": 1822,
-    "elo_away": 2057,
+    "elo_away": 2077,
     "market": null,
     "blended": {
-     "p_home": 0.1452,
-     "p_draw": 0.233,
-     "p_away": 0.6218,
+     "p_home": 0.1324,
+     "p_draw": 0.2236,
+     "p_away": 0.644,
      "source": "modell"
     }
    }
@@ -3608,7 +3608,7 @@
    "pred": {
     "p_home": 0.2117,
     "p_draw": 0.2683,
-    "p_away": 0.52,
+    "p_away": 0.5201,
     "xg_home": 0.88,
     "xg_away": 1.53,
     "top_scores": [
@@ -3626,7 +3626,7 @@
      ],
      [
       "0-0",
-      0.0953
+      0.0952
      ],
      [
       "1-2",
@@ -3639,7 +3639,7 @@
     "blended": {
      "p_home": 0.2117,
      "p_draw": 0.2683,
-     "p_away": 0.52,
+     "p_away": 0.5201,
      "source": "modell"
     }
    }
@@ -3686,7 +3686,7 @@
      ],
      [
       "0-0",
-      0.0814
+      0.0813
      ]
     ],
     "elo_home": 1599,
@@ -3734,7 +3734,7 @@
      ],
      [
       "0-0",
-      0.1039
+      0.1038
      ],
      [
       "1-0",
@@ -3886,40 +3886,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.3371,
-    "p_draw": 0.2929,
-    "p_away": 0.37,
-    "xg_home": 1.12,
-    "xg_away": 1.19,
+    "p_home": 0.3743,
+    "p_draw": 0.2928,
+    "p_away": 0.3329,
+    "xg_home": 1.2,
+    "xg_away": 1.12,
     "top_scores": [
      [
       "1-1",
-      0.1375
-     ],
-     [
-      "0-1",
-      0.1123
+      0.1374
      ],
      [
       "1-0",
-      0.1057
+      0.1131
+     ],
+     [
+      "0-1",
+      0.1048
      ],
      [
       "0-0",
       0.104
      ],
      [
-      "1-2",
-      0.0787
+      "2-1",
+      0.0793
      ]
     ],
     "elo_home": 1950,
-    "elo_away": 1866,
+    "elo_away": 1831,
     "market": null,
     "blended": {
-     "p_home": 0.3371,
-     "p_draw": 0.2929,
-     "p_away": 0.37,
+     "p_home": 0.3743,
+     "p_draw": 0.2928,
+     "p_away": 0.3329,
      "source": "modell"
     }
    }
@@ -3998,40 +3998,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.2136,
-    "p_draw": 0.269,
-    "p_away": 0.5173,
-    "xg_home": 0.88,
-    "xg_away": 1.52,
+    "p_home": 0.1974,
+    "p_draw": 0.2623,
+    "p_away": 0.5403,
+    "xg_home": 0.85,
+    "xg_away": 1.58,
     "top_scores": [
      [
       "0-1",
-      0.1329
+      0.1346
      ],
      [
       "1-1",
-      0.1263
+      0.1231
      ],
      [
       "0-2",
-      0.1046
-     ],
-     [
-      "0-0",
-      0.0955
+      0.1098
      ],
      [
       "1-2",
-      0.0922
+      0.0933
+     ],
+     [
+      "0-0",
+      0.0931
      ]
     ],
-    "elo_home": 2062,
+    "elo_home": 2042,
     "elo_away": 2207,
     "market": null,
     "blended": {
-     "p_home": 0.2136,
-     "p_draw": 0.269,
-     "p_away": 0.5173,
+     "p_home": 0.1974,
+     "p_draw": 0.2623,
+     "p_away": 0.5403,
      "source": "modell"
     }
    }
@@ -4166,40 +4166,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.1065,
-    "p_draw": 0.2015,
-    "p_away": 0.692,
-    "xg_home": 0.66,
-    "xg_away": 2.03,
+    "p_home": 0.097,
+    "p_draw": 0.192,
+    "p_away": 0.711,
+    "xg_home": 0.64,
+    "xg_away": 2.1,
     "top_scores": [
      [
       "0-2",
-      0.1399
+      0.1427
      ],
      [
       "0-1",
-      0.1342
+      0.1324
      ],
      [
       "0-3",
-      0.0947
-     ],
-     [
-      "1-1",
-      0.0946
+      0.0999
      ],
      [
       "1-2",
-      0.0923
+      0.091
+     ],
+     [
+      "1-1",
+      0.0901
      ]
     ],
     "elo_home": 1925,
-    "elo_away": 2224,
+    "elo_away": 2242,
     "market": null,
     "blended": {
-     "p_home": 0.1065,
-     "p_draw": 0.2015,
-     "p_away": 0.692,
+     "p_home": 0.097,
+     "p_draw": 0.192,
+     "p_away": 0.711,
      "source": "modell"
     }
    }
@@ -4278,40 +4278,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.1052,
-    "p_draw": 0.2002,
-    "p_away": 0.6946,
-    "xg_home": 0.66,
-    "xg_away": 2.04,
+    "p_home": 0.0876,
+    "p_draw": 0.1819,
+    "p_away": 0.7305,
+    "xg_home": 0.62,
+    "xg_away": 2.18,
     "top_scores": [
      [
       "0-2",
-      0.1403
+      0.1452
      ],
      [
       "0-1",
-      0.134
+      0.1302
      ],
      [
       "0-3",
-      0.0954
-     ],
-     [
-      "1-1",
-      0.094
+      0.1054
      ],
      [
       "1-2",
-      0.0921
+      0.0894
+     ],
+     [
+      "1-1",
+      0.0854
      ]
     ],
     "elo_home": 1686,
-    "elo_away": 1988,
+    "elo_away": 2023,
     "market": null,
     "blended": {
-     "p_home": 0.1052,
-     "p_draw": 0.2002,
-     "p_away": 0.6946,
+     "p_home": 0.0876,
+     "p_draw": 0.1819,
+     "p_away": 0.7305,
      "source": "modell"
     }
    }
@@ -4446,40 +4446,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.3694,
-    "p_draw": 0.293,
-    "p_away": 0.3376,
-    "xg_home": 1.19,
-    "xg_away": 1.13,
+    "p_home": 0.3892,
+    "p_draw": 0.2919,
+    "p_away": 0.3189,
+    "xg_home": 1.23,
+    "xg_away": 1.09,
     "top_scores": [
      [
       "1-1",
-      0.1375
+      0.137
      ],
      [
       "1-0",
-      0.1122
-     ],
-     [
-      "0-1",
-      0.1058
+      0.1158
      ],
      [
       "0-0",
-      0.104
+      0.1037
+     ],
+     [
+      "0-1",
+      0.1018
      ],
      [
       "2-1",
-      0.0787
+      0.0811
      ]
     ],
     "elo_home": 2093,
-    "elo_away": 2078,
+    "elo_away": 2060,
     "market": null,
     "blended": {
-     "p_home": 0.3694,
-     "p_draw": 0.293,
-     "p_away": 0.3376,
+     "p_home": 0.3892,
+     "p_draw": 0.2919,
+     "p_away": 0.3189,
      "source": "modell"
     }
    }
@@ -4622,7 +4622,7 @@
     "top_scores": [
      [
       "0-2",
-      0.1435
+      0.1434
      ],
      [
       "0-3",
@@ -4726,40 +4726,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.4469,
-    "p_draw": 0.2849,
-    "p_away": 0.2682,
-    "xg_home": 1.36,
-    "xg_away": 0.99,
+    "p_home": 0.4696,
+    "p_draw": 0.2806,
+    "p_away": 0.2498,
+    "xg_home": 1.41,
+    "xg_away": 0.95,
     "top_scores": [
      [
       "1-1",
-      0.1337
+      0.1317
      ],
      [
       "1-0",
-      0.125
+      0.1279
      ],
      [
       "0-0",
-      0.1012
-     ],
-     [
-      "0-1",
-      0.0897
+      0.0996
      ],
      [
       "2-0",
-      0.0882
+      0.0935
+     ],
+     [
+      "2-1",
+      0.089
      ]
     ],
-    "elo_home": 2057,
+    "elo_home": 2077,
     "elo_away": 1973,
     "market": null,
     "blended": {
-     "p_home": 0.4469,
-     "p_draw": 0.2849,
-     "p_away": 0.2682,
+     "p_home": 0.4696,
+     "p_draw": 0.2806,
+     "p_away": 0.2498,
      "source": "modell"
     }
    }
@@ -4902,40 +4902,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.1569,
-    "p_draw": 0.2407,
-    "p_away": 0.6023,
-    "xg_home": 0.77,
-    "xg_away": 1.74,
+    "p_home": 0.1711,
+    "p_draw": 0.2492,
+    "p_away": 0.5797,
+    "xg_home": 0.8,
+    "xg_away": 1.68,
     "top_scores": [
      [
       "0-1",
-      0.1371
+      0.1366
      ],
      [
       "0-2",
-      0.1233
+      0.1185
      ],
      [
       "1-1",
-      0.113
+      0.1169
      ],
      [
       "1-2",
-      0.0947
+      0.0945
      ],
      [
       "0-0",
-      0.0855
+      0.0885
      ]
     ],
     "elo_home": 1843,
-    "elo_away": 2062,
+    "elo_away": 2042,
     "market": null,
     "blended": {
-     "p_home": 0.1569,
-     "p_draw": 0.2407,
-     "p_away": 0.6023,
+     "p_home": 0.1711,
+     "p_draw": 0.2492,
+     "p_away": 0.5797,
      "source": "modell"
     }
    }
@@ -5090,7 +5090,7 @@
      ],
      [
       "2-1",
-      0.089
+      0.0891
      ],
      [
       "1-1",
@@ -5126,40 +5126,40 @@
    ],
    "aet": true,
    "pred": {
-    "p_home": 0.4745,
-    "p_draw": 0.2795,
-    "p_away": 0.2459,
-    "xg_home": 1.42,
-    "xg_away": 0.94,
+    "p_home": 0.5148,
+    "p_draw": 0.2697,
+    "p_away": 0.2155,
+    "xg_home": 1.51,
+    "xg_away": 0.89,
     "top_scores": [
      [
-      "1-1",
-      0.1312
-     ],
-     [
       "1-0",
-      0.1285
+      0.1326
      ],
      [
-      "0-0",
-      0.0993
+      "1-1",
+      0.1266
      ],
      [
       "2-0",
-      0.0946
+      0.104
+     ],
+     [
+      "0-0",
+      0.0958
      ],
      [
       "2-1",
-      0.0894
+      0.0921
      ]
     ],
-    "elo_home": 1988,
+    "elo_home": 2023,
     "elo_away": 1880,
     "market": null,
     "blended": {
-     "p_home": 0.4745,
-     "p_draw": 0.2795,
-     "p_away": 0.2459,
+     "p_home": 0.5148,
+     "p_draw": 0.2697,
+     "p_away": 0.2155,
      "source": "modell"
     }
    }
@@ -5182,40 +5182,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.6817,
-    "p_draw": 0.2065,
-    "p_away": 0.1119,
-    "xg_home": 1.99,
-    "xg_away": 0.67,
+    "p_home": 0.6437,
+    "p_draw": 0.2238,
+    "p_away": 0.1326,
+    "xg_home": 1.87,
+    "xg_away": 0.72,
     "top_scores": [
      [
-      "2-0",
-      0.1383
+      "1-0",
+      0.1368
      ],
      [
-      "1-0",
-      0.135
+      "2-0",
+      0.1315
      ],
      [
       "1-1",
-      0.0969
+      0.105
      ],
      [
       "2-1",
-      0.0929
+      0.0943
      ],
      [
       "3-0",
-      0.0919
+      0.0819
      ]
     ],
-    "elo_home": 1866,
+    "elo_home": 1831,
     "elo_away": 1676,
     "market": null,
     "blended": {
-     "p_home": 0.6817,
-     "p_draw": 0.2065,
-     "p_away": 0.1119,
+     "p_home": 0.6437,
+     "p_draw": 0.2238,
+     "p_away": 0.1326,
      "source": "modell"
     }
    }
@@ -5238,40 +5238,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.729,
-    "p_draw": 0.1827,
-    "p_away": 0.0883,
-    "xg_home": 2.17,
-    "xg_away": 0.62,
+    "p_home": 0.747,
+    "p_draw": 0.1731,
+    "p_away": 0.0799,
+    "xg_home": 2.25,
+    "xg_away": 0.6,
     "top_scores": [
      [
       "2-0",
-      0.145
+      0.147
      ],
      [
       "1-0",
-      0.1304
+      0.1278
      ],
      [
       "3-0",
-      0.1049
+      0.11
      ],
      [
       "2-1",
-      0.0895
+      0.0877
      ],
      [
       "1-1",
-      0.0858
+      0.0812
      ]
     ],
-    "elo_home": 2224,
+    "elo_home": 2242,
     "elo_away": 1889,
     "market": null,
     "blended": {
-     "p_home": 0.729,
-     "p_draw": 0.1827,
-     "p_away": 0.0883,
+     "p_home": 0.747,
+     "p_draw": 0.1731,
+     "p_away": 0.0799,
      "source": "modell"
     }
    }
@@ -5294,40 +5294,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.5015,
-    "p_draw": 0.2732,
-    "p_away": 0.2253,
-    "xg_home": 1.48,
-    "xg_away": 0.9,
+    "p_home": 0.4805,
+    "p_draw": 0.2782,
+    "p_away": 0.2413,
+    "xg_home": 1.43,
+    "xg_away": 0.94,
     "top_scores": [
      [
-      "1-0",
-      0.1314
-     ],
-     [
       "1-1",
-      0.1282
+      0.1306
      ],
      [
-      "2-0",
-      0.1009
+      "1-0",
+      0.1292
      ],
      [
       "0-0",
-      0.097
+      0.0988
+     ],
+     [
+      "2-0",
+      0.0961
      ],
      [
       "2-1",
-      0.0913
+      0.0899
      ]
     ],
-    "elo_home": 2078,
+    "elo_home": 2060,
     "elo_away": 1947,
     "market": null,
     "blended": {
-     "p_home": 0.5015,
-     "p_draw": 0.2732,
-     "p_away": 0.2253,
+     "p_home": 0.4805,
+     "p_draw": 0.2782,
+     "p_away": 0.2413,
      "source": "modell"
     }
    }
@@ -5358,7 +5358,7 @@
     "top_scores": [
      [
       "1-0",
-      0.1355
+      0.1354
      ],
      [
       "1-1",
@@ -5530,7 +5530,7 @@
     "top_scores": [
      [
       "2-0",
-      0.1502
+      0.1501
      ],
      [
       "3-0",
@@ -5538,7 +5538,7 @@
      ],
      [
       "1-0",
-      0.1175
+      0.1174
      ],
      [
       "2-1",
@@ -5690,40 +5690,40 @@
    ],
    "aet": false,
    "pred": {
-    "p_home": 0.3486,
-    "p_draw": 0.2932,
-    "p_away": 0.3582,
-    "xg_home": 1.15,
-    "xg_away": 1.17,
+    "p_home": 0.3916,
+    "p_draw": 0.2918,
+    "p_away": 0.3167,
+    "xg_home": 1.24,
+    "xg_away": 1.08,
     "top_scores": [
      [
       "1-1",
-      0.1376
-     ],
-     [
-      "0-1",
-      0.11
+      0.1369
      ],
      [
       "1-0",
-      0.1081
+      0.1162
      ],
      [
       "0-0",
-      0.1041
+      0.1036
      ],
      [
-      "1-2",
-      0.0772
+      "0-1",
+      0.1013
+     ],
+     [
+      "2-1",
+      0.0814
      ]
     ],
-    "elo_home": 2057,
-    "elo_away": 2062,
+    "elo_home": 2077,
+    "elo_away": 2042,
     "market": null,
     "blended": {
-     "p_home": 0.3486,
-     "p_draw": 0.2932,
-     "p_away": 0.3582,
+     "p_home": 0.3916,
+     "p_draw": 0.2918,
+     "p_away": 0.3167,
      "source": "modell"
     }
    }
@@ -5758,7 +5758,7 @@
      ],
      [
       "0-1",
-      0.1297
+      0.1296
      ],
      [
       "0-0",
@@ -5795,48 +5795,48 @@
    "home": "Portugal",
    "away": "Spain",
    "placeholder": false,
-   "status": "scheduled",
+   "status": "played",
+   "score": [
+    0,
+    1
+   ],
+   "aet": false,
    "pred": {
-    "p_home": 0.2128,
-    "p_draw": 0.2687,
-    "p_away": 0.5185,
-    "xg_home": 0.88,
-    "xg_away": 1.52,
+    "p_home": 0.1837,
+    "p_draw": 0.2558,
+    "p_away": 0.5606,
+    "xg_home": 0.82,
+    "xg_away": 1.63,
     "top_scores": [
      [
       "0-1",
-      0.133
+      0.1358
      ],
      [
       "1-1",
-      0.1261
+      0.1201
      ],
      [
       "0-2",
-      0.1049
-     ],
-     [
-      "0-0",
-      0.0954
+      0.1144
      ],
      [
       "1-2",
-      0.0923
+      0.094
+     ],
+     [
+      "0-0",
+      0.0908
      ]
     ],
-    "elo_home": 2078,
-    "elo_away": 2224,
-    "market": {
-     "p_home": 0.2341,
-     "p_draw": 0.2655,
-     "p_away": 0.5004,
-     "bookmakers": 23
-    },
+    "elo_home": 2060,
+    "elo_away": 2242,
+    "market": null,
     "blended": {
-     "p_home": 0.2266,
-     "p_draw": 0.2666,
-     "p_away": 0.5068,
-     "source": "marked (23 bookmakere) + modell"
+     "p_home": 0.1837,
+     "p_draw": 0.2558,
+     "p_away": 0.5606,
+     "source": "modell"
     }
    }
   },
@@ -5851,48 +5851,48 @@
    "home": "USA",
    "away": "Belgium",
    "placeholder": false,
-   "status": "scheduled",
+   "status": "played",
+   "score": [
+    1,
+    4
+   ],
+   "aet": false,
    "pred": {
-    "p_home": 0.3296,
-    "p_draw": 0.2926,
-    "p_away": 0.3777,
-    "xg_home": 1.11,
-    "xg_away": 1.21,
+    "p_home": 0.2609,
+    "p_draw": 0.2833,
+    "p_away": 0.4558,
+    "xg_home": 0.97,
+    "xg_away": 1.38,
     "top_scores": [
      [
       "1-1",
-      0.1373
+      0.133
      ],
      [
       "0-1",
-      0.1138
-     ],
-     [
-      "1-0",
-      0.1041
+      0.1262
      ],
      [
       "0-0",
-      0.1039
+      0.1006
+     ],
+     [
+      "0-2",
+      0.0903
      ],
      [
       "1-2",
-      0.0797
+      0.0879
      ]
     ],
-    "elo_home": 1866,
-    "elo_away": 1988,
-    "market": {
-     "p_home": 0.377,
-     "p_draw": 0.2768,
-     "p_away": 0.3462,
-     "bookmakers": 23
-    },
+    "elo_home": 1831,
+    "elo_away": 2023,
+    "market": null,
     "blended": {
-     "p_home": 0.3604,
-     "p_draw": 0.2823,
-     "p_away": 0.3572,
-     "source": "marked (23 bookmakere) + modell"
+     "p_home": 0.2609,
+     "p_draw": 0.2833,
+     "p_away": 0.4558,
+     "source": "modell"
     }
    }
   },
@@ -5939,16 +5939,16 @@
     "elo_home": 2228,
     "elo_away": 1865,
     "market": {
-     "p_home": 0.6919,
-     "p_draw": 0.2035,
-     "p_away": 0.1046,
-     "bookmakers": 23
+     "p_home": 0.716,
+     "p_draw": 0.1947,
+     "p_away": 0.0893,
+     "bookmakers": 25
     },
     "blended": {
-     "p_home": 0.7145,
-     "p_draw": 0.191,
-     "p_away": 0.0945,
-     "source": "marked (23 bookmakere) + modell"
+     "p_home": 0.7302,
+     "p_draw": 0.1853,
+     "p_away": 0.0845,
+     "source": "marked (25 bookmakere) + modell"
     }
    }
   },
@@ -5995,16 +5995,16 @@
     "elo_home": 2034,
     "elo_away": 2093,
     "market": {
-     "p_home": 0.2747,
-     "p_draw": 0.3114,
-     "p_away": 0.414,
-     "bookmakers": 23
+     "p_home": 0.2692,
+     "p_draw": 0.3074,
+     "p_away": 0.4234,
+     "bookmakers": 25
     },
     "blended": {
-     "p_home": 0.2808,
-     "p_draw": 0.3036,
-     "p_away": 0.4157,
-     "source": "marked (23 bookmakere) + modell"
+     "p_home": 0.2772,
+     "p_draw": 0.301,
+     "p_away": 0.4218,
+     "source": "marked (25 bookmakere) + modell"
     }
    }
   },
@@ -6041,7 +6041,7 @@
      ],
      [
       "0-0",
-      0.0949
+      0.0948
      ],
      [
       "2-1",
@@ -6051,16 +6051,16 @@
     "elo_home": 2207,
     "elo_away": 2056,
     "market": {
-     "p_home": 0.5985,
-     "p_draw": 0.2468,
-     "p_away": 0.1547,
-     "bookmakers": 23
+     "p_home": 0.6019,
+     "p_draw": 0.2463,
+     "p_away": 0.1518,
+     "bookmakers": 25
     },
     "blended": {
-     "p_home": 0.5724,
-     "p_draw": 0.2539,
-     "p_away": 0.1737,
-     "source": "marked (23 bookmakere) + modell"
+     "p_home": 0.5746,
+     "p_draw": 0.2536,
+     "p_away": 0.1718,
+     "source": "marked (25 bookmakere) + modell"
     }
    }
   },
@@ -6079,19 +6079,11 @@
    "likely_participants": [
     {
      "team": "Spain",
-     "p": 0.6931
+     "p": 1.0
     },
     {
      "team": "Belgium",
-     "p": 0.5241
-    },
-    {
-     "team": "USA",
-     "p": 0.4759
-    },
-    {
-     "team": "Portugal",
-     "p": 0.3069
+     "p": 1.0
     }
    ]
   },
@@ -6102,21 +6094,54 @@
    "group": null,
    "date": "2026-07-11",
    "utc": "2026-07-11T21:00:00Z",
-   "venue": "Miami (Miami Gardens)",
-   "home": "W91",
-   "away": "W92",
-   "placeholder": true,
+   "venue": "Miami (Miami Gardens)    ## W91 / W92",
+   "home": "Norway",
+   "away": "England",
+   "placeholder": false,
    "status": "scheduled",
-   "likely_participants": [
-    {
-     "team": "Norway",
-     "p": 1.0
+   "pred": {
+    "p_home": 0.246,
+    "p_draw": 0.2796,
+    "p_away": 0.4744,
+    "xg_home": 0.94,
+    "xg_away": 1.42,
+    "top_scores": [
+     [
+      "1-1",
+      0.1312
+     ],
+     [
+      "0-1",
+      0.1285
+     ],
+     [
+      "0-0",
+      0.0993
+     ],
+     [
+      "0-2",
+      0.0946
+     ],
+     [
+      "1-2",
+      0.0894
+     ]
+    ],
+    "elo_home": 2042,
+    "elo_away": 2150,
+    "market": {
+     "p_home": 0.2364,
+     "p_draw": 0.261,
+     "p_away": 0.5026,
+     "bookmakers": 25
     },
-    {
-     "team": "England",
-     "p": 1.0
+    "blended": {
+     "p_home": 0.2398,
+     "p_draw": 0.2675,
+     "p_away": 0.4928,
+     "source": "marked (25 bookmakere) + modell"
     }
-   ]
+   }
   },
   {
    "num": 100,
@@ -6133,19 +6158,19 @@
    "likely_participants": [
     {
      "team": "Argentina",
-     "p": 0.8896
+     "p": 0.8893
     },
     {
      "team": "Colombia",
-     "p": 0.5886
+     "p": 0.5847
     },
     {
      "team": "Switzerland",
-     "p": 0.4114
+     "p": 0.4153
     },
     {
      "team": "Egypt",
-     "p": 0.1104
+     "p": 0.1107
     }
    ]
   },
@@ -6163,28 +6188,20 @@
    "status": "scheduled",
    "likely_participants": [
     {
-     "team": "France",
-     "p": 0.7032
+     "team": "Spain",
+     "p": 0.7779
     },
     {
-     "team": "Spain",
-     "p": 0.5612
+     "team": "France",
+     "p": 0.7085
     },
     {
      "team": "Morocco",
-     "p": 0.2968
-    },
-    {
-     "team": "Portugal",
-     "p": 0.1975
+     "p": 0.2915
     },
     {
      "team": "Belgium",
-     "p": 0.131
-    },
-    {
-     "team": "USA",
-     "p": 0.1103
+     "p": 0.2221
     }
    ]
   },
@@ -6202,28 +6219,28 @@
    "status": "scheduled",
    "likely_participants": [
     {
-     "team": "Argentina",
-     "p": 0.6346
+     "team": "England",
+     "p": 0.6429
     },
     {
-     "team": "England",
-     "p": 0.626
+     "team": "Argentina",
+     "p": 0.6414
     },
     {
      "team": "Norway",
-     "p": 0.374
+     "p": 0.3571
     },
     {
      "team": "Colombia",
-     "p": 0.2152
+     "p": 0.2067
     },
     {
      "team": "Switzerland",
-     "p": 0.1233
+     "p": 0.1255
     },
     {
      "team": "Egypt",
-     "p": 0.0269
+     "p": 0.0264
     }
    ]
   },
@@ -6241,28 +6258,28 @@
    "status": "scheduled",
    "likely_participants": [
     {
-     "team": "England",
-     "p": 0.3304
-    },
-    {
      "team": "France",
-     "p": 0.2839
+     "p": 0.3459
     },
     {
-     "team": "Norway",
-     "p": 0.2399
+     "team": "England",
+     "p": 0.3371
     },
     {
      "team": "Spain",
-     "p": 0.2352
+     "p": 0.305
+    },
+    {
+     "team": "Norway",
+     "p": 0.2412
     },
     {
      "team": "Argentina",
-     "p": 0.2193
+     "p": 0.2181
     },
     {
      "team": "Morocco",
-     "p": 0.1765
+     "p": 0.199
     }
    ]
   },
@@ -6280,28 +6297,28 @@
    "status": "scheduled",
    "likely_participants": [
     {
-     "team": "France",
-     "p": 0.4193
+     "team": "Spain",
+     "p": 0.4729
     },
     {
      "team": "Argentina",
-     "p": 0.4153
+     "p": 0.4233
     },
     {
-     "team": "Spain",
-     "p": 0.326
+     "team": "France",
+     "p": 0.3626
     },
     {
      "team": "England",
-     "p": 0.2956
+     "p": 0.3058
     },
     {
      "team": "Norway",
-     "p": 0.1341
+     "p": 0.1159
     },
     {
-     "team": "Morocco",
-     "p": 0.1203
+     "team": "Colombia",
+     "p": 0.1001
     }
    ]
   }
