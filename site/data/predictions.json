@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T07:44:00Z",
+ "generated_at": "2026-07-09T08:59:51Z",
  "tournament": "FIFA Fotball-VM 2026",
  "n_simulations": 10000,
  "model": {
@@ -6055,16 +6055,16 @@
     "elo_home": 2207,
     "elo_away": 2056,
     "market": {
-     "p_home": 0.6033,
-     "p_draw": 0.2451,
-     "p_away": 0.1516,
-     "bookmakers": 25
+     "p_home": 0.6085,
+     "p_draw": 0.2449,
+     "p_away": 0.1466,
+     "bookmakers": 23
     },
     "blended": {
-     "p_home": 0.5756,
-     "p_draw": 0.2528,
-     "p_away": 0.1716,
-     "source": "marked (25 bookmakere) + modell"
+     "p_home": 0.5789,
+     "p_draw": 0.2527,
+     "p_away": 0.1684,
+     "source": "marked (23 bookmakere) + modell"
     }
    }
   },
@@ -6111,16 +6111,16 @@
     "elo_home": 2242,
     "elo_away": 2042,
     "market": {
-     "p_home": 0.5882,
-     "p_draw": 0.2406,
-     "p_away": 0.1712,
-     "bookmakers": 25
+     "p_home": 0.5846,
+     "p_draw": 0.242,
+     "p_away": 0.1734,
+     "bookmakers": 23
     },
     "blended": {
-     "p_home": 0.586,
-     "p_draw": 0.2433,
-     "p_away": 0.1707,
-     "source": "marked (25 bookmakere) + modell"
+     "p_home": 0.5837,
+     "p_draw": 0.2442,
+     "p_away": 0.1721,
+     "source": "marked (23 bookmakere) + modell"
     }
    }
   },
@@ -6167,16 +6167,16 @@
     "elo_home": 2042,
     "elo_away": 2150,
     "market": {
-     "p_home": 0.2323,
-     "p_draw": 0.2578,
-     "p_away": 0.51,
-     "bookmakers": 25
+     "p_home": 0.2289,
+     "p_draw": 0.2583,
+     "p_away": 0.5128,
+     "bookmakers": 23
     },
     "blended": {
-     "p_home": 0.2371,
-     "p_draw": 0.2654,
-     "p_away": 0.4975,
-     "source": "marked (25 bookmakere) + modell"
+     "p_home": 0.2349,
+     "p_draw": 0.2658,
+     "p_away": 0.4993,
+     "source": "marked (23 bookmakere) + modell"
     }
    }
   },
@@ -6187,21 +6187,54 @@
    "group": null,
    "date": "2026-07-11",
    "utc": "2026-07-12T01:00:00Z",
-   "venue": "Kansas City",
-   "home": "W95",
-   "away": "W96",
-   "placeholder": true,
+   "venue": "Kansas City    ## W96 / W95",
+   "home": "Argentina",
+   "away": "Switzerland",
+   "placeholder": false,
    "status": "scheduled",
-   "likely_participants": [
-    {
-     "team": "Argentina",
-     "p": 1.0
+   "pred": {
+    "p_home": 0.575,
+    "p_draw": 0.2508,
+    "p_away": 0.1742,
+    "xg_home": 1.67,
+    "xg_away": 0.8,
+    "top_scores": [
+     [
+      "1-0",
+      0.1364
+     ],
+     [
+      "1-1",
+      0.1177
+     ],
+     [
+      "2-0",
+      0.1175
+     ],
+     [
+      "2-1",
+      0.0944
+     ],
+     [
+      "0-0",
+      0.089
+     ]
+    ],
+    "elo_home": 2234,
+    "elo_away": 2040,
+    "market": {
+     "p_home": 0.5618,
+     "p_draw": 0.2673,
+     "p_away": 0.1709,
+     "bookmakers": 24
     },
-    {
-     "team": "Switzerland",
-     "p": 1.0
+    "blended": {
+     "p_home": 0.5664,
+     "p_draw": 0.2615,
+     "p_away": 0.172,
+     "source": "marked (24 bookmakere) + modell"
     }
-   ]
+   }
   },
   {
    "num": 101,
