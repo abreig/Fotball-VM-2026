@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-12T07:39:36Z",
+ "generated_at": "2026-07-13T08:30:22Z",
  "tournament": "FIFA Fotball-VM 2026",
  "n_simulations": 10000,
  "model": {
@@ -6279,16 +6279,16 @@
     "elo_home": 2233,
     "elo_away": 2257,
     "market": {
-     "p_home": 0.4134,
-     "p_draw": 0.2934,
-     "p_away": 0.2932,
-     "bookmakers": 24
+     "p_home": 0.4118,
+     "p_draw": 0.2932,
+     "p_away": 0.295,
+     "bookmakers": 25
     },
     "blended": {
-     "p_home": 0.3838,
-     "p_draw": 0.2931,
-     "p_away": 0.3231,
-     "source": "marked (24 bookmakere) + modell"
+     "p_home": 0.3827,
+     "p_draw": 0.293,
+     "p_away": 0.3243,
+     "source": "marked (25 bookmakere) + modell"
     }
    }
   },
@@ -6299,21 +6299,54 @@
    "group": null,
    "date": "2026-07-15",
    "utc": "2026-07-15T19:00:00Z",
-   "venue": "Atlanta",
-   "home": "W99",
-   "away": "W100",
-   "placeholder": true,
+   "venue": "Atlanta    ## W99 / W100",
+   "home": "England",
+   "away": "Argentina",
+   "placeholder": false,
    "status": "scheduled",
-   "likely_participants": [
-    {
-     "team": "England",
-     "p": 1.0
+   "pred": {
+    "p_home": 0.2669,
+    "p_draw": 0.2846,
+    "p_away": 0.4485,
+    "xg_home": 0.99,
+    "xg_away": 1.36,
+    "top_scores": [
+     [
+      "1-1",
+      0.1336
+     ],
+     [
+      "0-1",
+      0.1252
+     ],
+     [
+      "0-0",
+      0.101
+     ],
+     [
+      "1-0",
+      0.0894
+     ],
+     [
+      "0-2",
+      0.0885
+     ]
+    ],
+    "elo_home": 2171,
+    "elo_away": 2257,
+    "market": {
+     "p_home": 0.3664,
+     "p_draw": 0.3195,
+     "p_away": 0.3141,
+     "bookmakers": 25
     },
-    {
-     "team": "Argentina",
-     "p": 1.0
+    "blended": {
+     "p_home": 0.3316,
+     "p_draw": 0.3073,
+     "p_away": 0.3611,
+     "source": "marked (25 bookmakere) + modell"
     }
-   ]
+   }
   },
   {
    "num": 103,
