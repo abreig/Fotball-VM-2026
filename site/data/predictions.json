@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T07:31:23Z",
+ "generated_at": "2026-07-18T07:13:35Z",
  "tournament": "FIFA Fotball-VM 2026",
  "n_simulations": 10000,
  "model": {
@@ -6391,16 +6391,16 @@
     "elo_home": 2192,
     "elo_away": 2148,
     "market": {
-     "p_home": 0.5044,
-     "p_draw": 0.2471,
-     "p_away": 0.2485,
-     "bookmakers": 25
+     "p_home": 0.5109,
+     "p_draw": 0.2385,
+     "p_away": 0.2506,
+     "bookmakers": 24
     },
     "blended": {
-     "p_home": 0.4681,
-     "p_draw": 0.2624,
-     "p_away": 0.2695,
-     "source": "marked (25 bookmakere) + modell"
+     "p_home": 0.4723,
+     "p_draw": 0.2569,
+     "p_away": 0.2708,
+     "source": "marked (24 bookmakere) + modell"
     }
    }
   },
@@ -6447,16 +6447,16 @@
     "elo_home": 2299,
     "elo_away": 2278,
     "market": {
-     "p_home": 0.4175,
-     "p_draw": 0.3148,
-     "p_away": 0.2677,
-     "bookmakers": 25
+     "p_home": 0.4186,
+     "p_draw": 0.3132,
+     "p_away": 0.2682,
+     "bookmakers": 24
     },
     "blended": {
-     "p_home": 0.403,
-     "p_draw": 0.307,
-     "p_away": 0.29,
-     "source": "marked (25 bookmakere) + modell"
+     "p_home": 0.4037,
+     "p_draw": 0.306,
+     "p_away": 0.2903,
+     "source": "marked (24 bookmakere) + modell"
     }
    }
   }
