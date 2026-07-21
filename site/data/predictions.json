@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-20T08:21:01Z",
+ "generated_at": "2026-07-21T07:44:54Z",
  "tournament": "FIFA Fotball-VM 2026",
  "n_simulations": 10000,
  "model": {
@@ -406,7 +406,7 @@
    "p_qf": 1.0,
    "p_sf": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.6092,
+   "p_champion": 1.0,
    "elo": 2327
   },
   "Cape Verde": {
@@ -494,7 +494,7 @@
    "p_qf": 1.0,
    "p_sf": 1.0,
    "p_final": 1.0,
-   "p_champion": 0.3908,
+   "p_champion": 0.0,
    "elo": 2250
   },
   "Algeria": {
@@ -6415,7 +6415,12 @@
    "home": "Spain",
    "away": "Argentina",
    "placeholder": false,
-   "status": "scheduled",
+   "status": "played",
+   "score": [
+    1,
+    0
+   ],
+   "aet": true,
    "pred": {
     "p_home": 0.4391,
     "p_draw": 0.2861,
